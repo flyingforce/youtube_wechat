@@ -1,4 +1,4 @@
-"""Setup script for YouTube to WeChat application."""
+"""Setup script for YouTube to WeChat/Telegram application."""
 
 from setuptools import setup, find_packages
 
@@ -8,9 +8,9 @@ with open("requirements.txt") as f:
 setup(
     name="youtube-wechat",
     version="0.1.0",
-    description="Download YouTube videos and send them through WeChat",
-    author="User",
-    author_email="user@example.com",
+    description="Download YouTube videos and send them through WeChat or Telegram",
+    author="Justin Gao",
+    author_email="flyingforce@gmail.com",
     packages=find_packages(),
     include_package_data=True,
     install_requires=requirements,

@@ -28,9 +28,6 @@ jobs:
       shell: bash -l {0}
       run: |
         conda activate youtube-wechat
-        # Create a symbolic link to make imports work
-        mkdir -p youtube_wechat
-        ln -sf $(pwd)/src youtube_wechat/src
         # Install the package
         pip install -e .
     
@@ -38,6 +35,4 @@ jobs:
       shell: bash -l {0}
       run: |
         conda activate youtube-wechat
-        # Add the current directory to the Python path
-        export PYTHONPATH=$PYTHONPATH:$(pwd)
         python -m unittest discover tests/

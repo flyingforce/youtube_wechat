@@ -4,8 +4,8 @@ import os
 import unittest
 from unittest.mock import patch, MagicMock
 
-from youtube_wechat.src.config import Config
-from youtube_wechat.src.youtube_downloader import YouTubeDownloader
+from src.config import Config
+from src.youtube_downloader import YouTubeDownloader
 # Import VideoFileClip from the module directly for mocking
 try:
     from moviepy.editor import VideoFileClip
@@ -16,8 +16,8 @@ except ImportError:
         # Mock VideoFileClip for testing if moviepy is not installed
         class VideoFileClip:
             pass
-from youtube_wechat.src.wechat_messenger import WeChatMessenger
-from youtube_wechat.src.app import YouTubeWeChatApp
+from src.wechat_messenger import WeChatMessenger
+from src.app import YouTubeWeChatApp
 
 
 class TestBasicFunctionality(unittest.TestCase):
@@ -37,8 +37,8 @@ class TestBasicFunctionality(unittest.TestCase):
             # but for this example, we'll just print a message
             print(f"Would remove directory: {self.test_dir}")
 
-    @patch('youtube_wechat.src.youtube_downloader.scrapetube.get_channel')
-    @patch('youtube_wechat.src.youtube_downloader.VideoFileClip')
+    @patch('src.youtube_downloader.scrapetube.get_channel')
+    @patch('src.youtube_downloader.VideoFileClip')
     def test_youtube_downloader(self, mock_video_clip, mock_get_channel):
         """Test YouTube downloader functionality."""
         # Mock scrapetube.get_channel to avoid actual API calls
@@ -50,17 +50,10 @@ class TestBasicFunctionality(unittest.TestCase):
             }
         ]
 
-        # Mock YouTube to avoid actual API calls
-        with patch('youtube_wechat.src.youtube_downloader.YouTube') as mock_youtube:
-            mock_youtube_instance = MagicMock()
-            mock_youtube_instance.title = "Test Video"
-            mock_youtube_instance.publish_date = None
-            mock_youtube_instance.views = 1000
-            mock_youtube_instance.length = 60
-            mock_youtube_instance.author = "Test Channel"
-            mock_youtube_instance.video_id = "example1"
-            mock_youtube.return_value = mock_youtube_instance
-
+        # Mock subprocess.run to avoid actual command execution
+        with patch('src.youtube_downloader.subprocess.run') as mock_subprocess_run:
+            mock_subprocess_run.return_value = MagicMock()
+            
             # Mock VideoFileClip for MP3 conversion
             mock_video_clip_instance = MagicMock()
             mock_audio_clip = MagicMock()
@@ -80,7 +73,7 @@ class TestBasicFunctionality(unittest.TestCase):
             self.assertIsNotNone(mp3_path)
             mock_audio_clip.write_audiofile.assert_called_once()
 
-    @patch('youtube_wechat.src.wechat_messenger.Bot')
+    @patch('src.wechat_messenger.Bot')
     def test_wechat_messenger(self, mock_bot):
         """Test WeChat messenger functionality."""
         # Mock Bot to avoid actual API calls
@@ -105,9 +98,9 @@ class TestBasicFunctionality(unittest.TestCase):
         self.assertTrue(config.should_convert_to_mp3())
         self.assertTrue(config.should_keep_video_after_conversion())
 
-    @patch('youtube_wechat.src.app.Config')
-    @patch('youtube_wechat.src.app.YouTubeDownloader')
-    @patch('youtube_wechat.src.app.WeChatMessenger')
+    @patch('src.app.Config')
+    @patch('src.app.YouTubeDownloader')
+    @patch('src.app.WeChatMessenger')
     def test_app(self, mock_messenger, mock_downloader, mock_config):
         """Test application functionality."""
         # Mock Config to avoid file operations

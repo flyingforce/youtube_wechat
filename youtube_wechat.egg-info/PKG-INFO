@@ -24,6 +24,8 @@ Requires-Dist: decorator>=4.0.2
 Requires-Dist: imageio>=2.5.0
 Requires-Dist: imageio-ffmpeg>=0.4.0
 Requires-Dist: proglog>=0.1.9
+Requires-Dist: scrapetube>=2.3.0
+Requires-Dist: yt-dlp>=2023.3.4
 Dynamic: author
 Dynamic: author-email
 Dynamic: classifier

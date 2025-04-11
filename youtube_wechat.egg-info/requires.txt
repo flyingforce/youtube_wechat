@@ -9,3 +9,5 @@ decorator>=4.0.2
 imageio>=2.5.0
 imageio-ffmpeg>=0.4.0
 proglog>=0.1.9
+scrapetube>=2.3.0
+yt-dlp>=2023.3.4

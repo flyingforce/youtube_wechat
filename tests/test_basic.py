@@ -37,14 +37,18 @@ class TestBasicFunctionality(unittest.TestCase):
             # but for this example, we'll just print a message
             print(f"Would remove directory: {self.test_dir}")
 
-    @patch('youtube_wechat.src.youtube_downloader.Channel')
+    @patch('youtube_wechat.src.youtube_downloader.scrapetube.get_channel')
     @patch('youtube_wechat.src.youtube_downloader.VideoFileClip')
-    def test_youtube_downloader(self, mock_video_clip, mock_channel):
+    def test_youtube_downloader(self, mock_video_clip, mock_get_channel):
         """Test YouTube downloader functionality."""
-        # Mock Channel to avoid actual API calls
-        mock_channel_instance = MagicMock()
-        mock_channel_instance.video_urls = ["https://www.youtube.com/watch?v=example1"]
-        mock_channel.return_value = mock_channel_instance
+        # Mock scrapetube.get_channel to avoid actual API calls
+        mock_get_channel.return_value = [
+            {
+                'videoId': 'example1',
+                'title': {'runs': [{'text': 'Test Video'}]},
+                'publishedTimeText': {'simpleText': '1 day ago'}
+            }
+        ]
 
         # Mock YouTube to avoid actual API calls
         with patch('youtube_wechat.src.youtube_downloader.YouTube') as mock_youtube:
@@ -136,7 +140,7 @@ class TestBasicFunctionality(unittest.TestCase):
 
         # Test run_once
         result = app.run_once()
-        self.assertEqual(result, 1)  # One video sent
+        self.assertEqual(result, 3)  # One video downloaded and two files sent (video + MP3)
 
 
 if __name__ == "__main__":

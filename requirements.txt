@@ -11,3 +11,5 @@ imageio-ffmpeg>=0.4.0  # Required by moviepy for video processing
 proglog>=0.1.9  # Required by moviepy for progress logging
 scrapetube>=2.3.0  # For scraping YouTube channel videos
 yt-dlp>=2023.3.4  # For downloading YouTube videos directly
+youtube-dl==2021.12.17
+python-telegram-bot==20.7

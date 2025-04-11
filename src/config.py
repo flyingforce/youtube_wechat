@@ -35,6 +35,18 @@ DEFAULT_CONFIG = {
         "send_message_with_video": True,
         "message_template": "New video from {channel}: {title}"
     },
+    "telegram": {
+        "bot_token": "YOUR_BOT_TOKEN",
+        "recipients": [
+            # Example recipient configuration
+            {
+                "chat_id": "CHAT_ID_1",
+                "name": "Chat Name"
+            }
+        ],
+        "send_message_with_video": True,
+        "message_template": "New video from {channel}: {title}"
+    },
     "app": {
         "check_interval_hours": 24,
         "log_level": "INFO",
@@ -124,6 +136,24 @@ class Config:
         """
         return self.config.get("wechat", {}).get("recipients", [])
         
+    def get_telegram_recipients(self) -> List[Dict[str, Any]]:
+        """
+        Get list of configured Telegram recipients.
+        
+        Returns:
+            List of recipient configurations
+        """
+        return self.config.get("telegram", {}).get("recipients", [])
+        
+    def get_telegram_bot_token(self) -> str:
+        """
+        Get configured Telegram bot token.
+        
+        Returns:
+            Telegram bot token
+        """
+        return self.config.get("telegram", {}).get("bot_token", "")
+        
     def get_download_dir(self) -> str:
         """
         Get configured download directory.
@@ -196,23 +226,41 @@ class Config:
         """
         return self.config.get("app", {}).get("log_file", "youtube_wechat.log")
         
-    def get_message_template(self) -> str:
+    def get_wechat_message_template(self) -> str:
         """
-        Get configured message template.
+        Get configured WeChat message template.
         
         Returns:
             Message template string
         """
         return self.config.get("wechat", {}).get("message_template", "New video from {channel}: {title}")
         
+    def get_telegram_message_template(self) -> str:
+        """
+        Get configured Telegram message template.
+        
+        Returns:
+            Message template string
+        """
+        return self.config.get("telegram", {}).get("message_template", "New video from {channel}: {title}")
+        
     def should_send_message_with_video(self) -> bool:
         """
-        Check if a message should be sent with each video.
+        Check if a message should be sent with each video in WeChat.
         
         Returns:
             True if a message should be sent, False otherwise
         """
         return self.config.get("wechat", {}).get("send_message_with_video", True)
+        
+    def should_send_telegram_message_with_video(self) -> bool:
+        """
+        Check if a message should be sent with each video in Telegram.
+        
+        Returns:
+            True if a message should be sent, False otherwise
+        """
+        return self.config.get("telegram", {}).get("send_message_with_video", True)
         
     def add_youtube_channel(self, name: str, url: str, days_to_check: int = 7, max_videos: int = 3) -> bool:
         """
@@ -278,4 +326,36 @@ class Config:
                 return False
                 
         self.config["wechat"]["recipients"].append(recipient)
+        return self.save()
+        
+    def add_telegram_recipient(self, chat_id: str, name: str = None) -> bool:
+        """
+        Add a new Telegram recipient to the configuration.
+        
+        Args:
+            chat_id: Telegram chat ID
+            name: Optional name for reference
+            
+        Returns:
+            True if added successfully, False otherwise
+        """
+        recipient = {
+            "chat_id": chat_id
+        }
+        if name:
+            recipient["name"] = name
+            
+        if "telegram" not in self.config:
+            self.config["telegram"] = {}
+            
+        if "recipients" not in self.config["telegram"]:
+            self.config["telegram"]["recipients"] = []
+            
+        # Check if recipient already exists
+        for existing_recipient in self.config["telegram"]["recipients"]:
+            if existing_recipient.get("chat_id") == chat_id:
+                logger.warning(f"Telegram recipient with chat ID {chat_id} already exists")
+                return False
+                
+        self.config["telegram"]["recipients"].append(recipient)
         return self.save()

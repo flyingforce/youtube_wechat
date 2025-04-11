@@ -87,6 +87,26 @@ wechat:
   # Available variables: {channel}, {title}
   message_template: "New video from {channel}: {title}"
 
+telegram:
+  # Telegram bot token (get it from @BotFather)
+  bot_token: "YOUR_BOT_TOKEN"
+  
+  # List of Telegram chat IDs to send videos to
+  recipients:
+    - chat_id: "CHAT_ID_1"  # Chat ID to send videos to
+      name: "Chat Name"     # Optional name for reference
+    
+    # You can add more recipients like this:
+    # - chat_id: "CHAT_ID_2"
+    #   name: "Another Chat"
+  
+  # Whether to send a message with each video
+  send_message_with_video: true
+  
+  # Template for the message to send with each video
+  # Available variables: {channel}, {title}
+  message_template: "New video from {channel}: {title}"
+
 app:
   # How often to check for new videos (in hours)
   check_interval_hours: 24

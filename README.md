@@ -1,6 +1,6 @@
-# YouTube to WeChat
+# YouTube to WeChat/Telegram
 
-A Python application that automatically downloads videos from YouTube channels and sends them to WeChat contacts or groups.
+A Python application that automatically downloads videos from YouTube channels and sends them to WeChat contacts/groups or Telegram chats.
 
 ## Features
 
@@ -11,7 +11,7 @@ A Python application that automatically downloads videos from YouTube channels a
 - Date-based organization: files are stored in date-based directories for easy management
 - Filter videos by publication date
 - Convert videos to MP3 format
-- Send videos and/or MP3s to WeChat contacts or groups
+- Send videos and/or MP3s to WeChat contacts/groups or Telegram chats
 - Run as a one-time operation or as a daemon that checks periodically
 - Configurable via YAML file or command-line arguments
 
@@ -20,7 +20,8 @@ A Python application that automatically downloads videos from YouTube channels a
 ### Prerequisites
 
 - Python 3.7 or higher
-- WeChat account
+- WeChat account (optional)
+- Telegram bot token (optional)
 - FFmpeg (required for MP3 conversion)
   - On macOS: `brew install ffmpeg`
   - On Ubuntu/Debian: `sudo apt-get install ffmpeg`
@@ -32,13 +33,15 @@ A Python application that automatically downloads videos from YouTube channels a
 ### Install from source
 
 1. Clone the repository:
-   ```
+
+   ```bash
    git clone https://github.com/flyingforce/youtube-wechat.git
    cd youtube-wechat
    ```
 
 2. Install the package:
-   ```
+
+   ```bash
    pip install -e .
    ```
 
@@ -68,6 +71,14 @@ wechat:
   send_message_with_video: true
   message_template: "New video from {channel}: {title}"
 
+telegram:
+  bot_token: "YOUR_BOT_TOKEN"
+  recipients:
+    - chat_id: "CHAT_ID_1"
+      name: "Chat Name"
+  send_message_with_video: true
+  message_template: "New video from {channel}: {title}"
+
 app:
   check_interval_hours: 24
   log_level: INFO
@@ -78,7 +89,7 @@ app:
 
 Run the application:
 
-```
+```bash
 youtube-wechat [options]
 ```
 
@@ -87,19 +98,26 @@ Options:
 - `--config`, `-c`: Path to configuration file (default: `config.yaml`)
 - `--run-once`, `-r`: Run once and exit
 - `--daemon`, `-d`: Run continuously at configured intervals
-- `--skip-wechat`, `-sw`: Skip WeChat login and messaging (download only)
+- `--skip-wechat`, `-sw`: Skip WeChat login and messaging
+- `--skip-telegram`, `-st`: Skip Telegram messaging
 - `--max-workers`, `-mw`: Maximum number of worker threads for parallel downloads (default: 4)
 
 Add a YouTube channel:
 
-```
+```bash
 youtube-wechat --add-channel --channel-name "Channel Name" --channel-url "https://www.youtube.com/c/ChannelName" [--days 7] [--max-videos 3]
 ```
 
 Add a WeChat recipient:
 
-```
+```bash
 youtube-wechat --add-recipient --recipient-name "Recipient Name" [--is-group]
+```
+
+Add a Telegram recipient:
+
+```bash
+youtube-wechat --add-telegram-recipient --chat-id "CHAT_ID" [--name "Recipient Name"]
 ```
 
 ### Python Module Usage
@@ -126,6 +144,12 @@ app.add_wechat_recipient(
     is_group=False
 )
 
+# Add a Telegram recipient
+app.add_telegram_recipient(
+    chat_id="CHAT_ID",
+    name="Recipient Name"
+)
+
 # Run the application once
 app.run_once()
 
@@ -139,21 +163,34 @@ The application uses the WeChat Web API through the `wxpy` library. When you run
 
 **Important Note**: WeChat Web has been restricted for many users, and this method may not work for all accounts. If you encounter issues, consider using alternative methods like WeChat Work (企业微信) API if you have access to it.
 
+## Telegram Setup
+
+To use Telegram messaging:
+
+1. Create a new bot using [@BotFather](https://t.me/BotFather) on Telegram
+2. Get the bot token from BotFather
+3. Add the bot token to your `config.yaml` file under `telegram.bot_token`
+4. Start a chat with your bot
+5. Get your chat ID by sending a message to [@userinfobot](https://t.me/userinfobot)
+6. Add the chat ID to your `config.yaml` file under `telegram.recipients`
+
 ## Download-Only Mode
 
-If you only want to download videos and convert them to MP3 without sending them through WeChat, you can use the `--skip-wechat` option:
+If you only want to download videos and convert them to MP3 without sending them through WeChat or Telegram, you can use the `--skip-wechat` and `--skip-telegram` options:
 
-```
-youtube-wechat --run-once --skip-wechat
+```bash
+youtube-wechat --run-once --skip-wechat --skip-telegram
 ```
 
 This will:
+
 1. Download videos from the configured YouTube channels
 2. Convert them to MP3 format (if enabled)
-3. Skip the WeChat login and messaging steps
+3. Skip the WeChat and Telegram messaging steps
 
 This is useful if:
-- You don't have a WeChat account
+
+- You don't have a WeChat or Telegram account
 - WeChat Web API is not working for your account
 - You just want to use the application as a YouTube downloader/converter
 
@@ -163,7 +200,7 @@ This is useful if:
 
 The application uses multiple threads to download videos in parallel, which significantly improves performance when downloading multiple videos. You can control the number of concurrent downloads using the `--max-workers` option:
 
-```
+```bash
 youtube-wechat --run-once --max-workers 8
 ```
 
@@ -186,7 +223,7 @@ Downloaded files are automatically organized into date-based directories (format
 - WeChat Web API has limitations and may not work for all accounts
 - YouTube may rate-limit requests if you download too many videos in a short period
 - Large video files may take a long time to download and send
-- WeChat may have file size limitations for sending videos
+- WeChat and Telegram may have file size limitations for sending videos
 - MP3 conversion requires FFmpeg to be installed on your system
 
 ## Troubleshooting
@@ -206,6 +243,15 @@ If you encounter issues with MP3 conversion:
 1. Ensure FFmpeg is installed and available in your PATH
 2. Check that all moviepy dependencies are installed: `pip install -r requirements.txt`
 3. If you still have issues, you can disable MP3 conversion by setting `convert_to_mp3: false` in your config.yaml
+
+### Telegram Issues
+
+If you encounter issues with Telegram messaging:
+
+1. Ensure your bot token is correct and has not been revoked
+2. Verify that your chat ID is correct
+3. Make sure your bot has been added to the chat and has permission to send messages
+4. Check that the bot has permission to send files and videos
 
 ## License
 

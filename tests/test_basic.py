@@ -17,6 +17,7 @@ except ImportError:
         class VideoFileClip:
             pass
 from src.wechat_messenger import WeChatMessenger
+from src.telegram_messenger import TelegramMessenger
 from src.app import YouTubeWeChatApp
 
 
@@ -86,6 +87,35 @@ class TestBasicFunctionality(unittest.TestCase):
         # Test login
         self.assertTrue(messenger.login())
 
+    @patch('src.telegram_messenger.Bot')
+    def test_telegram_messenger(self, mock_bot):
+        """Test Telegram messenger functionality."""
+        # Mock Bot to avoid actual API calls
+        mock_bot_instance = MagicMock()
+        mock_bot.return_value = mock_bot_instance
+
+        # Create messenger
+        messenger = TelegramMessenger(token="test_token")
+
+        # Test login
+        self.assertTrue(messenger.login())
+
+        # Test send_message
+        self.assertTrue(messenger.send_message("test_chat_id", "test message"))
+
+        # Test send_file
+        with patch('builtins.open', unittest.mock.mock_open(read_data=b'test')):
+            self.assertTrue(messenger.send_file("test_chat_id", "test_file.txt"))
+
+        # Test send_video
+        with patch('builtins.open', unittest.mock.mock_open(read_data=b'test')):
+            self.assertTrue(messenger.send_video("test_chat_id", "test_video.mp4"))
+
+        # Test send_videos
+        with patch('builtins.open', unittest.mock.mock_open(read_data=b'test')):
+            successful_sends = messenger.send_videos("test_chat_id", ["test_video1.mp4", "test_video2.mp4"])
+            self.assertEqual(len(successful_sends), 2)
+
     def test_config(self):
         """Test configuration functionality."""
         # Create a config with default values
@@ -101,7 +131,8 @@ class TestBasicFunctionality(unittest.TestCase):
     @patch('src.app.Config')
     @patch('src.app.YouTubeDownloader')
     @patch('src.app.WeChatMessenger')
-    def test_app(self, mock_messenger, mock_downloader, mock_config):
+    @patch('src.app.TelegramMessenger')
+    def test_app(self, mock_telegram, mock_messenger, mock_downloader, mock_config):
         """Test application functionality."""
         # Mock Config to avoid file operations
         mock_config_instance = MagicMock()
@@ -114,6 +145,9 @@ class TestBasicFunctionality(unittest.TestCase):
         ]
         mock_config_instance.get_wechat_recipients.return_value = [
             {"name": "Test Friend", "is_group": False}
+        ]
+        mock_config_instance.get_telegram_recipients.return_value = [
+            {"chat_id": "test_chat_id", "name": "Test Chat"}
         ]
         mock_config.return_value = mock_config_instance
 
@@ -128,12 +162,19 @@ class TestBasicFunctionality(unittest.TestCase):
         mock_messenger_instance.send_videos.return_value = ["test_video.mp4"]
         mock_messenger.return_value = mock_messenger_instance
 
+        # Mock TelegramMessenger to avoid actual Telegram operations
+        mock_telegram_instance = MagicMock()
+        mock_telegram_instance.login.return_value = True
+        mock_telegram_instance.send_videos.return_value = ["test_video.mp4"]
+        mock_telegram.return_value = mock_telegram_instance
+
         # Create app
         app = YouTubeWeChatApp(config_path="test_config.yaml")
 
         # Test run_once
         result = app.run_once()
-        self.assertEqual(result, 3)  # One video downloaded and two files sent (video + MP3)
+        # Expecting 5 files: 1 video + 1 MP3 sent to WeChat, and 1 video + 1 MP3 sent to Telegram
+        self.assertEqual(result, 5)
 
 
 if __name__ == "__main__":

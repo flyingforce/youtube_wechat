@@ -3,13 +3,13 @@ requests>=2.28.1
 python-dotenv>=0.21.0
 wxpy>=0.3.9.8  # For WeChat bot functionality
 pyyaml>=6.0    # For configuration management
-moviepy>=1.0.3  # For video to MP3 conversion
+moviepy==1.0.3  # For video to MP3 conversion
 numpy>=1.19.0  # Required by moviepy
 decorator>=4.0.2  # Required by moviepy
 imageio>=2.5.0  # Required by moviepy
 imageio-ffmpeg>=0.4.0  # Required by moviepy for video processing
 proglog>=0.1.9  # Required by moviepy for progress logging
 scrapetube>=2.3.0  # For scraping YouTube channel videos
-yt-dlp>=2023.3.4  # For downloading YouTube videos directly
+yt-dlp==2023.11.16
 youtube-dl==2021.12.17
 python-telegram-bot==20.7

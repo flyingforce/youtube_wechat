@@ -5,18 +5,19 @@ channels:
 dependencies:
   - python>=3.7
   - pip
-  - pytest
   - pip:
     - pytube>=12.1.0
     - requests>=2.28.1
     - python-dotenv>=0.21.0
     - wxpy>=0.3.9.8
     - pyyaml>=6.0
-    - moviepy>=1.0.3
+    - moviepy==1.0.3
     - numpy>=1.19.0
     - decorator>=4.0.2
     - imageio>=2.5.0
     - imageio-ffmpeg>=0.4.0
     - proglog>=0.1.9
     - scrapetube>=2.3.0
-    - yt-dlp>=2023.3.4
+    - yt-dlp==2023.11.16
+    - youtube-dl==2021.12.17
+    - python-telegram-bot==20.7

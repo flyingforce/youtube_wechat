@@ -3,10 +3,9 @@
 import os
 import logging
 from typing import List, Optional
+import telegram
 from telegram import Bot
 from telegram.error import TelegramError
-
-logger = logging.getLogger(__name__)
 
 class TelegramMessenger:
     """Class to handle sending messages and files through Telegram."""
@@ -18,8 +17,9 @@ class TelegramMessenger:
         Args:
             token: Telegram bot token
         """
-        self.bot = None
         self.token = token
+        self.bot = None
+        self.logger = logging.getLogger(__name__)
         
     def login(self) -> bool:
         """
@@ -30,10 +30,10 @@ class TelegramMessenger:
         """
         try:
             self.bot = Bot(token=self.token)
-            logger.info("Successfully logged in to Telegram")
+            self.logger.info("Telegram login successful")
             return True
-        except Exception as e:
-            logger.error(f"Failed to log in to Telegram: {e}")
+        except TelegramError as e:
+            self.logger.error(f"Telegram login failed: {str(e)}")
             return False
             
     def send_message(self, chat_id: str, message: str) -> bool:
@@ -47,16 +47,16 @@ class TelegramMessenger:
         Returns:
             True if message sent successfully, False otherwise
         """
-        if not self.bot:
-            logger.error("Not logged in to Telegram")
-            return False
-            
         try:
+            if not self.bot:
+                self.logger.error("Telegram bot not initialized")
+                return False
+            
             self.bot.send_message(chat_id=chat_id, text=message)
-            logger.info(f"Message sent to chat {chat_id}")
+            self.logger.info(f"Message sent to chat {chat_id}")
             return True
         except TelegramError as e:
-            logger.error(f"Error sending message: {e}")
+            self.logger.error(f"Failed to send message to chat {chat_id}: {str(e)}")
             return False
             
     def send_file(self, chat_id: str, file_path: str) -> bool:
@@ -70,21 +70,20 @@ class TelegramMessenger:
         Returns:
             True if file sent successfully, False otherwise
         """
-        if not self.bot:
-            logger.error("Not logged in to Telegram")
-            return False
-            
-        if not os.path.exists(file_path):
-            logger.error(f"File not found: {file_path}")
-            return False
-            
         try:
+            if not self.bot:
+                self.logger.error("Telegram bot not initialized")
+                return False
+            
             with open(file_path, 'rb') as file:
                 self.bot.send_document(chat_id=chat_id, document=file)
-            logger.info(f"File sent to chat {chat_id}: {file_path}")
+            self.logger.info(f"File sent to chat {chat_id}: {file_path}")
             return True
+        except FileNotFoundError:
+            self.logger.error(f"File not found: {file_path}")
+            return False
         except TelegramError as e:
-            logger.error(f"Error sending file: {e}")
+            self.logger.error(f"Failed to send file to chat {chat_id}: {str(e)}")
             return False
             
     def send_video(self, chat_id: str, video_path: str) -> bool:
@@ -98,21 +97,20 @@ class TelegramMessenger:
         Returns:
             True if video sent successfully, False otherwise
         """
-        if not self.bot:
-            logger.error("Not logged in to Telegram")
-            return False
-            
-        if not os.path.exists(video_path):
-            logger.error(f"Video file not found: {video_path}")
-            return False
-            
         try:
+            if not self.bot:
+                self.logger.error("Telegram bot not initialized")
+                return False
+            
             with open(video_path, 'rb') as video:
                 self.bot.send_video(chat_id=chat_id, video=video)
-            logger.info(f"Video sent to chat {chat_id}: {video_path}")
+            self.logger.info(f"Video sent to chat {chat_id}: {video_path}")
             return True
+        except FileNotFoundError:
+            self.logger.error(f"Video file not found: {video_path}")
+            return False
         except TelegramError as e:
-            logger.error(f"Error sending video: {e}")
+            self.logger.error(f"Failed to send video to chat {chat_id}: {str(e)}")
             return False
             
     def send_videos(self, chat_id: str, video_paths: List[str]) -> List[str]:

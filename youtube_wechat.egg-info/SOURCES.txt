@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/__init__.py
+src/__main__.py
+src/app.py
+src/config.py
+src/wechat_messenger.py
+src/youtube_downloader.py
+tests/__init__.py
+tests/test_basic.py
+youtube_wechat.egg-info/PKG-INFO
+youtube_wechat.egg-info/SOURCES.txt
+youtube_wechat.egg-info/dependency_links.txt
+youtube_wechat.egg-info/entry_points.txt
+youtube_wechat.egg-info/requires.txt
+youtube_wechat.egg-info/top_level.txt

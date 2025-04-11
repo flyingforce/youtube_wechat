@@ -1,0 +1,64 @@
+# YouTube to WeChat Configuration Example
+
+# Note: This application uses yt-dlp for downloading YouTube videos.
+# Make sure yt-dlp is installed: pip install yt-dlp
+
+youtube:
+  # List of YouTube channels to monitor
+  channels:
+    - name: Example Channel
+      url: https://www.youtube.com/c/ExampleChannel
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 3     # Maximum number of videos to download per run
+    
+    # You can add more channels like this:
+    # - name: Another Channel
+    #   url: https://www.youtube.com/c/AnotherChannel
+    #   days_to_check: 3
+    #   max_videos: 5
+  
+  # Directory to save downloaded videos
+  download_dir: downloads
+  
+  # Preferred video resolution (e.g., 360p, 480p, 720p, 1080p)
+  # If the specified resolution is not available, the highest available resolution will be used
+  preferred_resolution: 720p
+  
+  # Whether to convert videos to MP3 format
+  # Note: Requires FFmpeg to be installed on your system
+  # When enabled, the application will download audio-only to save bandwidth
+  # See README.md for installation instructions
+  convert_to_mp3: true
+  
+  # Whether to keep the original video file after MP3 conversion
+  keep_video_after_conversion: true
+
+wechat:
+  # List of WeChat recipients to send videos to
+  recipients:
+    - name: Friend Name  # Name exactly as it appears in your WeChat contacts
+      is_group: false    # Set to true if this is a group chat
+    
+    # You can add more recipients like this:
+    # - name: Family Group
+    #   is_group: true
+  
+  # Path to save WeChat login session cache
+  cache_path: wxpy.pkl
+  
+  # Whether to send a message with each video
+  send_message_with_video: true
+  
+  # Template for the message to send with each video
+  # Available variables: {channel}, {title}
+  message_template: "New video from {channel}: {title}"
+
+app:
+  # How often to check for new videos (in hours)
+  check_interval_hours: 24
+  
+  # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  log_level: INFO
+  
+  # Path to log file (set to empty string to disable file logging)
+  log_file: youtube_wechat.log

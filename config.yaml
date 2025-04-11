@@ -1,0 +1,98 @@
+# YouTube to WeChat Configuration Example
+
+youtube:
+  # List of YouTube channels to monitor
+  channels:
+    - name: Jian Wang
+      url: https://www.youtube.com/@wongkim728
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: WuyueSanren
+      url: https://www.youtube.com/@wuyuesanren
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: LT Shjie
+      url: https://www.youtube.com/@ltshijie
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: bu mingbai
+      url: https://www.youtube.com/@bumingbai
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: 年代向錢看
+      url: https://www.youtube.com/@%E5%B9%B4%E4%BB%A3%E5%90%91%E9%8C%A2%E7%9C%8B
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: er ye gushi
+      url: https://www.youtube.com/@Tankman2020
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: 大康有话说
+      url: https://www.youtube.com/@dakang
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: 小翠時政財經
+      url: https://www.youtube.com/@cui_news
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: Wen Zhao
+      url: https://www.youtube.com/@wenzhaoofficial
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: shuzhaiyehua
+      url: https://www.youtube.com/@shuzhaiyehua
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    - name: wangzhian
+      url: https://www.youtube.com/@wangzhian
+      days_to_check: 7  # Only download videos published within this many days
+      max_videos: 14     # Maximum number of videos to download per run
+    
+    # You can add more channels like this:
+    # - name: Another Channel
+    #   url: https://www.youtube.com/c/AnotherChannel
+    #   days_to_check: 3
+    #   max_videos: 5
+  
+  # Directory to save downloaded videos
+  download_dir: downloads
+  
+  # Preferred video resolution (e.g., 360p, 480p, 720p, 1080p)
+  # If the specified resolution is not available, the highest available resolution will be used
+  preferred_resolution: 720p
+  
+  # Whether to convert videos to MP3 format
+  convert_to_mp3: true
+  
+  # Whether to keep the original video file after MP3 conversion
+  keep_video_after_conversion: true
+
+wechat:
+  # List of WeChat recipients to send videos to
+  recipients:
+    - name: Friend Name  # Name exactly as it appears in your WeChat contacts
+      is_group: false    # Set to true if this is a group chat
+    
+    # You can add more recipients like this:
+    # - name: Family Group
+    #   is_group: true
+  
+  # Path to save WeChat login session cache
+  cache_path: wxpy.pkl
+  
+  # Whether to send a message with each video
+  send_message_with_video: true
+  
+  # Template for the message to send with each video
+  # Available variables: {channel}, {title}
+  message_template: "New video from {channel}: {title}"
+
+app:
+  # How often to check for new videos (in hours)
+  check_interval_hours: 24
+  
+  # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  log_level: INFO
+  
+  # Path to log file (set to empty string to disable file logging)
+  log_file: youtube_wechat.log

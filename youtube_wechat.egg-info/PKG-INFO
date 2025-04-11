@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: youtube-wechat
+Version: 0.1.0
+Summary: Download YouTube videos and send them through WeChat
+Author: User
+Author-email: user@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Requires-Dist: pytube>=12.1.0
+Requires-Dist: requests>=2.28.1
+Requires-Dist: python-dotenv>=0.21.0
+Requires-Dist: wxpy>=0.3.9.8
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: moviepy>=1.0.3
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: decorator>=4.0.2
+Requires-Dist: imageio>=2.5.0
+Requires-Dist: imageio-ffmpeg>=0.4.0
+Requires-Dist: proglog>=0.1.9
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

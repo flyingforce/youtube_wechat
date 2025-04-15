@@ -8,7 +8,18 @@ import subprocess
 import concurrent.futures
 from typing import List, Dict, Optional, Tuple, Set
 from datetime import datetime, timedelta, date
-import scrapetube
+
+# Try to import scrapetube, handle if not available
+try:
+    import scrapetube
+except ImportError:
+    # Define a placeholder for scrapetube if it's not installed
+    class ScrapeTubeModule:
+        def get_channel(self, *args, **kwargs):
+            raise ImportError("scrapetube is not installed. Please install it with 'pip install scrapetube'")
+    
+    scrapetube = ScrapeTubeModule()
+    logging.getLogger(__name__).warning("scrapetube module not found. YouTube channel scraping will not work.")
 
 
 # Fix for ModuleNotFoundError: No module named 'moviepy.editor'
@@ -103,12 +114,16 @@ class YouTubeDownloader:
         Returns:
             List of video information dictionaries
         """
-
-
         logger.info(f"Fetching videos from channel: {channel_url}")
+        videos = []
+        
         try:
-            videoIds = scrapetube.get_channel(channel_url=channel_url,limit = limit,sort_by="newest")
-            videos = []
+            # Try to use scrapetube to get channel videos
+            try:
+                videoIds = scrapetube.get_channel(channel_url=channel_url, limit=limit, sort_by="newest")
+            except (ImportError, AttributeError) as e:
+                logger.error(f"Failed to use scrapetube: {e}. Make sure scrapetube is installed with 'pip install scrapetube'")
+                return []
             
             for video in videoIds:
                 url = "https://www.youtube.com/watch?v="+video['videoId']

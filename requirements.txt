@@ -1,6 +1,5 @@
 pytube>=12.1.0  # For backward compatibility
 requests>=2.28.1
-python-dotenv>=0.21.0
 wxpy>=0.3.9.8  # For WeChat bot functionality
 pyyaml>=6.0    # For configuration management
 moviepy>=1.0.3  # For video to MP3 conversion

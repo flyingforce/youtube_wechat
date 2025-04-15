@@ -8418,3 +8418,880 @@
 2025-04-10 18:35:29,475 - src.youtube_downloader - INFO - [youtube_downloader.py:365] - No videos to download from channel (line 365)
 2025-04-10 18:35:29,475 - src.app - INFO - [app.py:97] - Downloaded 0 videos from wangzhian
 2025-04-10 18:35:29,475 - src.app - INFO - [app.py:218] - Application run completed. Downloaded 0 files.
+2025-04-14 20:06:26,220 - src.app - INFO - [app.py:59] - Initializing YouTube to WeChat application
+2025-04-14 20:06:26,220 - src.youtube_downloader - INFO - [youtube_downloader.py:71] - Loaded downloaded titles from downloads/downloaded_titles.txt
+2025-04-14 20:06:26,220 - src.youtube_downloader - INFO - [youtube_downloader.py:53] - Loaded 106 previously downloaded titles
+2025-04-14 20:06:26,220 - src.app - INFO - [app.py:76] - WeChat messaging is disabled
+2025-04-14 20:06:26,220 - src.app - INFO - [app.py:152] - Starting application run
+2025-04-14 20:06:26,220 - src.app - INFO - [app.py:166] - operate channel {'name': 'Jian Wang', 'url': 'https://www.youtube.com/@wongkim728', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:06:26,220 - src.app - INFO - [app.py:88] - Processing channel: Jian Wang
+2025-04-14 20:06:26,220 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@wongkim728
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 关税战失业问题是中国严重的社会问题/新闻8分钟/王剑每日观察 (ID: yPRunAcLn4E) (line 124)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 hours ago (line 135)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 关税战失业问题是中国严重的社会问题/新闻8分钟/王剑每日观察 (line 156)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中美关税战严重恶化中国生存状况/新闻8分钟/王剑每日观察 (ID: Eo321RkrxZM) (line 124)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 day ago (line 135)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 中美关税战严重恶化中国生存状况/新闻8分钟/王剑每日观察 (line 156)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普暂停对等关税90天是啥意思？/新闻8分钟/王剑每日观察 (ID: qiWPnw9Av9s) (line 124)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 川普暂停对等关税90天是啥意思？/新闻8分钟/王剑每日观察 (line 156)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中美关税战：世纪脱钩重创中国经济/王剑每日观察 (ID: O_Mh7zSDN8Q) (line 124)
+2025-04-14 20:06:26,493 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 中美关税战：世纪脱钩重创中国经济/王剑每日观察 (line 156)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 面对川普关税战中国准备了什么？/新闻8分钟/王剑每日观察 (ID: vlnk0Czap_s) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 面对川普关税战中国准备了什么？/新闻8分钟/王剑每日观察 (line 156)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 后习近平时代对中国政局意味着什么？/新闻8分钟/王剑每日观察 (ID: aK_UfMmkco0) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 后习近平时代对中国政局意味着什么？/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中国应对川普贸易战的逻辑和效果/新闻8分钟/王剑每日观察 (ID: KANBgvW4xlM) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中国应对川普贸易战的逻辑和效果/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 你猜川普知道关税战对世界经济和地缘政治的影响吗？/新闻8分钟/王剑每日观察 (ID: 6-nLWy-oXuo) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 你猜川普知道关税战对世界经济和地缘政治的影响吗？/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普执政团队开始面临散伙/新闻8分钟/王剑每日观察 (ID: jPmQhWFpB5k) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 6 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 川普执政团队开始面临散伙/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中国快速反击川普对等关税用意何在？/新闻8分钟/王剑每日观察 (ID: KjC27IyDsGc) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中国快速反击川普对等关税用意何在？/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中共权力斗争愈演愈烈冲击内政外交政策/王剑每日观察 (ID: 1dZW3UM55S4) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中共权力斗争愈演愈烈冲击内政外交政策/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中共罕见的人事调整意味着什么？/新闻8分钟/王剑每日观察 (ID: RH6KzeoyaAg) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 8 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中共罕见的人事调整意味着什么？/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普是美国当前最大的问题/新闻8分钟/王剑每日观察 (ID: FW55iLc4-f0) (line 124)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 8 days ago (line 135)
+2025-04-14 20:06:26,494 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 川普是美国当前最大的问题/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,495 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普对等关税如何重创中国经济?/新闻8分钟/王剑每日观察 (ID: emWvuFvypTk) (line 124)
+2025-04-14 20:06:26,495 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 9 days ago (line 135)
+2025-04-14 20:06:26,495 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 川普对等关税如何重创中国经济?/新闻8分钟/王剑每日观察 - already downloaded (line 146)
+2025-04-14 20:06:26,495 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:06:26 (timestamp: 1744081586.495681) (line 353)
+2025-04-14 20:06:26,495 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 5 videos using 10 threads (line 368)
+2025-04-14 20:06:26,496 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: yPRunAcLn4E
+2025-04-14 20:06:26,496 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: Eo321RkrxZM
+2025-04-14 20:06:26,496 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: qiWPnw9Av9s
+2025-04-14 20:06:26,496 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: O_Mh7zSDN8Q
+2025-04-14 20:06:26,496 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: vlnk0Czap_s
+2025-04-14 20:06:26,497 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 川普暂停对等关税90天是啥意思？/新闻8分钟/王剑每日观察 video ID: qiWPnw9Av9s (audio-only mode)
+2025-04-14 20:06:26,497 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 中美关税战严重恶化中国生存状况/新闻8分钟/王剑每日观察 video ID: Eo321RkrxZM (audio-only mode)
+2025-04-14 20:06:26,497 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 关税战失业问题是中国严重的社会问题/新闻8分钟/王剑每日观察 video ID: yPRunAcLn4E (audio-only mode)
+2025-04-14 20:06:26,497 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 中美关税战：世纪脱钩重创中国经济/王剑每日观察 video ID: O_Mh7zSDN8Q (audio-only mode)
+2025-04-14 20:06:26,497 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 面对川普关税战中国准备了什么？/新闻8分钟/王剑每日观察 video ID: vlnk0Czap_s (audio-only mode)
+2025-04-14 20:06:32,304 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/中美关税战严重恶化中国生存状况_新闻8分钟_王剑每日观察.mp3 (using yt-dlp)
+2025-04-14 20:06:32,304 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 中美关税战严重恶化中国生存状况/新闻8分钟/王剑每日观察
+2025-04-14 20:06:32,305 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 中美关税战严重恶化中国生存状况/新闻8分钟/王剑每日观察 (line 384)
+2025-04-14 20:06:32,467 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/面对川普关税战中国准备了什么__新闻8分钟_王剑每日观察.mp3 (using yt-dlp)
+2025-04-14 20:06:32,467 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 面对川普关税战中国准备了什么？/新闻8分钟/王剑每日观察
+2025-04-14 20:06:32,467 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 面对川普关税战中国准备了什么？/新闻8分钟/王剑每日观察 (line 384)
+2025-04-14 20:06:32,927 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/关税战失业问题是中国严重的社会问题_新闻8分钟_王剑每日观察.mp3 (using yt-dlp)
+2025-04-14 20:06:32,927 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 关税战失业问题是中国严重的社会问题/新闻8分钟/王剑每日观察
+2025-04-14 20:06:32,927 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 关税战失业问题是中国严重的社会问题/新闻8分钟/王剑每日观察 (line 384)
+2025-04-14 20:06:33,530 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/中美关税战_世纪脱钩重创中国经济_王剑每日观察.mp3 (using yt-dlp)
+2025-04-14 20:06:33,531 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 中美关税战：世纪脱钩重创中国经济/王剑每日观察
+2025-04-14 20:06:33,531 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 中美关税战：世纪脱钩重创中国经济/王剑每日观察 (line 384)
+2025-04-14 20:06:33,935 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/川普暂停对等关税90天是啥意思__新闻8分钟_王剑每日观察.mp3 (using yt-dlp)
+2025-04-14 20:06:33,935 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 川普暂停对等关税90天是啥意思？/新闻8分钟/王剑每日观察
+2025-04-14 20:06:33,936 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 川普暂停对等关税90天是啥意思？/新闻8分钟/王剑每日观察 (line 384)
+2025-04-14 20:06:33,936 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 5 videos in total (line 391)
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:97] - Downloaded 5 videos from Jian Wang
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:203] - Downloaded 5 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/中美关税战严重恶化中国生存状况_新闻8分钟_王剑每日观察.mp3
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/面对川普关税战中国准备了什么__新闻8分钟_王剑每日观察.mp3
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/关税战失业问题是中国严重的社会问题_新闻8分钟_王剑每日观察.mp3
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/中美关税战_世纪脱钩重创中国经济_王剑每日观察.mp3
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/川普暂停对等关税90天是啥意思__新闻8分钟_王剑每日观察.mp3
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:166] - operate channel {'name': 'WuyueSanren', 'url': 'https://www.youtube.com/@wuyuesanren', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:06:33,936 - src.app - INFO - [app.py:88] - Processing channel: WuyueSanren
+2025-04-14 20:06:33,936 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@wuyuesanren
+2025-04-14 20:06:34,192 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普政府豁免中国的电子产品：即没有怂、也不是什么一盘大棋；司马南事件余波：饶谨，当年反西方的一面大旗变成了税务失联人员——跑路了 (ID: St3dhj0nNpc) (line 124)
+2025-04-14 20:06:34,192 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 川普政府豁免中国的电子产品：即没有怂、也不是什么一盘大棋；司马南事件余波：饶谨，当年反西方的一面大旗变成了税务失联人员——跑路了 (line 156)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中美“耳光大战”告一段落，从目前文字的应对看，圣上强于川普：川普“内战内行、外战外行”的本色，以及中国会付出的代价｜关税战｜习近平｜特朗普｜欧盟｜ (ID: lFxZPvAzY48) (line 124)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 中美“耳光大战”告一段落，从目前文字的应对看，圣上强于川普：川普“内战内行、外战外行”的本色，以及中国会付出的代价｜关税战｜习近平｜特朗普｜欧盟｜ (line 156)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 大东亚共荣圈的中国版“周边命运共同体”出炉，圣上战略收缩的新野望能否实现｜周边工作会议｜习近平｜毛泽东｜ (ID: t2FNZ_fWcR0) (line 124)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 大东亚共荣圈的中国版“周边命运共同体”出炉，圣上战略收缩的新野望能否实现｜周边工作会议｜习近平｜毛泽东｜ (line 156)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 圣上与川普比“晨勃”的硬度：把关税加到125%，真的能够持久么？两者谁能更硬一些？我个人估计三到四个月内会谈判 (ID: j3ZGT_quGP8) (line 124)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 圣上与川普比“晨勃”的硬度：把关税加到125%，真的能够持久么？两者谁能更硬一些？我个人估计三到四个月内会谈判 - already downloaded (line 146)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 急了：中国商务部阻止“SHEIN（希音）”公司去东南亚建立新的供应链；提醒一下境外生活的各位，最近最好别去中国，能出来的各位赶紧出来 (ID: ahivl8JbEWM) (line 124)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 急了：中国商务部阻止“SHEIN（希音）”公司去东南亚建立新的供应链；提醒一下境外生活的各位，最近最好别去中国，能出来的各位赶紧出来 - already downloaded (line 146)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 装死、硬扛、转移目标、拉全世界下水：川普政府的“开战声明”，中国不撤回34%的报复性关税就再加50%，中国可能的四种应对模式 (ID: YJo_Yq4ZPWc) (line 124)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 装死、硬扛、转移目标、拉全世界下水：川普政府的“开战声明”，中国不撤回34%的报复性关税就再加50%，中国可能的四种应对模式 - already downloaded (line 146)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 专家们建议中国“零关税”：这是送给川普的大礼，即使以圣上胎教肄业的经济学水平，也是不能答应的｜贺滨｜但斌｜付鹏｜ (ID: d2cxeBsq4u4) (line 124)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:06:34,193 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 专家们建议中国“零关税”：这是送给川普的大礼，即使以圣上胎教肄业的经济学水平，也是不能答应的｜贺滨｜但斌｜付鹏｜ - already downloaded (line 146)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 美国使领馆人员不得与中国人发生关系：中国色情间谍的招募与培训，以及前苏联的“燕子”与“乌鸦”的培训与工作｜KGB｜MI6｜伯恩斯｜ (ID: dHV0DRyxZ_I) (line 124)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 8 days ago (line 135)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 美国使领馆人员不得与中国人发生关系：中国色情间谍的招募与培训，以及前苏联的“燕子”与“乌鸦”的培训与工作｜KGB｜MI6｜伯恩斯｜ - already downloaded (line 146)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中共与川普刚正面：不得不刚、不能不刚，以及刚的底气何在——反制美国，对等增加34%的关税是怎么个意思｜贸易战｜习近平｜ (ID: I7ZpwDs7QII) (line 124)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 9 days ago (line 135)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中共与川普刚正面：不得不刚、不能不刚，以及刚的底气何在——反制美国，对等增加34%的关税是怎么个意思｜贸易战｜习近平｜ - already downloaded (line 146)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 请美国网红“甲亢哥”的钱白扔：让二次元的梗给玩儿坏了。但中国的种族歧视要从古代的肤色“歧视”说起 (ID: DSJtJSLPTHI) (line 124)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 11 days ago (line 135)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 请美国网红“甲亢哥”的钱白扔：让二次元的梗给玩儿坏了。但中国的种族歧视要从古代的肤色“歧视”说起 - already downloaded (line 146)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普的“七伤拳”：“环中国制造圈”都被重拳打击，中国能消化这次打击么？美国要付出什么代价？ (ID: 15-P06zuJYM) (line 124)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 12 days ago (line 135)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 川普的“七伤拳”：“环中国制造圈”都被重拳打击，中国能消化这次打击么？美国要付出什么代价？ - already downloaded (line 146)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 圣上为什么应该改名“习进逼”：本次“无编号”演习真的有那些专家们说的那么多“深刻含义”么？鬼扯，就是把常规扰台改个名字的PS宣传片｜习近平｜东部战区｜火箭军｜炸鱼｜ (ID: AdUpSI6ePDQ) (line 124)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 12 days ago (line 135)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 圣上为什么应该改名“习进逼”：本次“无编号”演习真的有那些专家们说的那么多“深刻含义”么？鬼扯，就是把常规扰台改个名字的PS宣传片｜习近平｜东部战区｜火箭军｜炸鱼｜ - already downloaded (line 146)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 别以为您能跑：中国全球征税从高净值人群下沉到普通人，而且他们很可能会通过CRS掌握您的金融信息——对此您应该怎么做 (ID: iVMk0t-r2WA) (line 124)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 days ago (line 135)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 别以为您能跑：中国全球征税从高净值人群下沉到普通人，而且他们很可能会通过CRS掌握您的金融信息——对此您应该怎么做 - already downloaded (line 146)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 聊一期时间长的：十年后靠什么生活？这个社会会不会正在进入一个巨大的危机当中？｜AI｜工业革命｜泰国｜中铁十局｜塌楼｜地震｜ (ID: TBBK9rSBSoI) (line 124)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:06:34,194 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 聊一期时间长的：十年后靠什么生活？这个社会会不会正在进入一个巨大的危机当中？｜AI｜工业革命｜泰国｜中铁十局｜塌楼｜地震｜ as it is too old
+2025-04-14 20:06:34,195 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:06:34 (timestamp: 1744081594.195754) (line 353)
+2025-04-14 20:06:34,195 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 3 videos using 10 threads (line 368)
+2025-04-14 20:06:34,196 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: St3dhj0nNpc
+2025-04-14 20:06:34,196 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: lFxZPvAzY48
+2025-04-14 20:06:34,196 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: t2FNZ_fWcR0
+2025-04-14 20:06:34,196 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 川普政府豁免中国的电子产品：即没有怂、也不是什么一盘大棋；司马南事件余波：饶谨，当年反西方的一面大旗变成了税务失联人员——跑路了 video ID: St3dhj0nNpc (audio-only mode)
+2025-04-14 20:06:34,197 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 大东亚共荣圈的中国版“周边命运共同体”出炉，圣上战略收缩的新野望能否实现｜周边工作会议｜习近平｜毛泽东｜ video ID: t2FNZ_fWcR0 (audio-only mode)
+2025-04-14 20:06:34,197 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 中美“耳光大战”告一段落，从目前文字的应对看，圣上强于川普：川普“内战内行、外战外行”的本色，以及中国会付出的代价｜关税战｜习近平｜特朗普｜欧盟｜ video ID: lFxZPvAzY48 (audio-only mode)
+2025-04-14 20:06:48,245 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/大东亚共荣圈的中国版_周边命运共同体_出炉_圣上战略收缩的新野望能否实现_周边工作会议_习近平_毛泽东_.mp3 (using yt-dlp)
+2025-04-14 20:06:48,246 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 大东亚共荣圈的中国版“周边命运共同体”出炉，圣上战略收缩的新野望能否实现｜周边工作会议｜习近平｜毛泽东｜
+2025-04-14 20:06:48,246 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 大东亚共荣圈的中国版“周边命运共同体”出炉，圣上战略收缩的新野望能否实现｜周边工作会议｜习近平｜毛泽东｜ (line 384)
+2025-04-14 20:06:48,676 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/中美_耳光大战_告一段落_从目前文字的应对看_圣上强于川普_川普_内战内行_外战外行_的本色_以及中国会付出的代价_关税战_习近平_特朗普_欧盟_.mp3 (using yt-dlp)
+2025-04-14 20:06:48,676 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 中美“耳光大战”告一段落，从目前文字的应对看，圣上强于川普：川普“内战内行、外战外行”的本色，以及中国会付出的代价｜关税战｜习近平｜特朗普｜欧盟｜
+2025-04-14 20:06:48,676 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 中美“耳光大战”告一段落，从目前文字的应对看，圣上强于川普：川普“内战内行、外战外行”的本色，以及中国会付出的代价｜关税战｜习近平｜特朗普｜欧盟｜ (line 384)
+2025-04-14 20:06:49,600 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/川普政府豁免中国的电子产品_即没有怂_也不是什么一盘大棋_司马南事件余波_饶谨_当年反西方的一面大旗变成了税务失联人员__跑路了.mp3 (using yt-dlp)
+2025-04-14 20:06:49,600 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 川普政府豁免中国的电子产品：即没有怂、也不是什么一盘大棋；司马南事件余波：饶谨，当年反西方的一面大旗变成了税务失联人员——跑路了
+2025-04-14 20:06:49,600 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 川普政府豁免中国的电子产品：即没有怂、也不是什么一盘大棋；司马南事件余波：饶谨，当年反西方的一面大旗变成了税务失联人员——跑路了 (line 384)
+2025-04-14 20:06:49,600 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 3 videos in total (line 391)
+2025-04-14 20:06:49,600 - src.app - INFO - [app.py:97] - Downloaded 3 videos from WuyueSanren
+2025-04-14 20:06:49,600 - src.app - INFO - [app.py:203] - Downloaded 3 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:06:49,600 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/大东亚共荣圈的中国版_周边命运共同体_出炉_圣上战略收缩的新野望能否实现_周边工作会议_习近平_毛泽东_.mp3
+2025-04-14 20:06:49,600 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/中美_耳光大战_告一段落_从目前文字的应对看_圣上强于川普_川普_内战内行_外战外行_的本色_以及中国会付出的代价_关税战_习近平_特朗普_欧盟_.mp3
+2025-04-14 20:06:49,600 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/川普政府豁免中国的电子产品_即没有怂_也不是什么一盘大棋_司马南事件余波_饶谨_当年反西方的一面大旗变成了税务失联人员__跑路了.mp3
+2025-04-14 20:06:49,600 - src.app - INFO - [app.py:166] - operate channel {'name': 'LT Shjie', 'url': 'https://www.youtube.com/@ltshijie', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:06:49,600 - src.app - INFO - [app.py:88] - Processing channel: LT Shjie
+2025-04-14 20:06:49,600 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@ltshijie
+2025-04-14 20:06:49,904 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習近平碰軟釘子；為何這次習近平沒當成“帶頭大哥”？中國人教美國人學壞，兩招即能“機智”地繞過川普關稅。 (ID: Aa29K-tZsc8) (line 124)
+2025-04-14 20:06:49,904 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 hours ago (line 135)
+2025-04-14 20:06:49,904 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 習近平碰軟釘子；為何這次習近平沒當成“帶頭大哥”？中國人教美國人學壞，兩招即能“機智”地繞過川普關稅。 (line 156)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習近平有比貿易戰更頭疼的事；美中貿易戰半路殺出程咬金；中共首次對會遭到「圍毆」做出回應。 (ID: 1mEm8bzTv7w) (line 124)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 day ago (line 135)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 習近平有比貿易戰更頭疼的事；美中貿易戰半路殺出程咬金；中共首次對會遭到「圍毆」做出回應。 (line 156)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普突然對中國做重大讓步？中共外交人員嘴滑，震驚美國；美國市場出現首批漲價中國產品，漲價幅度很奇怪。 (ID: BFSNKRoX4lE) (line 124)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 川普突然對中國做重大讓步？中共外交人員嘴滑，震驚美國；美國市場出現首批漲價中國產品，漲價幅度很奇怪。 (line 156)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習近平首次發聲，不敢擔當；中共秘密啟用股災維穩手段；友誼小船要翻？川普稱“不需要馬斯克也行”。 (ID: LULfijAXclk) (line 124)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 習近平首次發聲，不敢擔當；中共秘密啟用股災維穩手段；友誼小船要翻？川普稱“不需要馬斯克也行”。 (line 156)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 「攤牌」式決裂之後，習主席才臨時抱佛腳；中共竟乘機策反，慘遭當頭一棒；究竟什麼原因導致川普突然退縮了？ (ID: wX1ugsgrIIA) (line 124)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 「攤牌」式決裂之後，習主席才臨時抱佛腳；中共竟乘機策反，慘遭當頭一棒；究竟什麼原因導致川普突然退縮了？ - already downloaded (line 146)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 風雲突變，美國亮底牌，習主席求錘得錘；歐洲人寫來“感謝信”：習主席救了我們所有人；川普找到完美台階，市場皆大歡喜。 (ID: lZ6pLAu-UMU) (line 124)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 風雲突變，美國亮底牌，習主席求錘得錘；歐洲人寫來“感謝信”：習主席救了我們所有人；川普找到完美台階，市場皆大歡喜。 - already downloaded (line 146)
+2025-04-14 20:06:49,905 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中共緊急應戰出第一招，副作用明顯的防禦措施，遠非官方宣傳那麼英武；戲劇性一幕出現，朝中共人財兩空方向走；貿易戰加劇之際，萬斯給習主席幫了個大忙。 (ID: VCLg7GLut5c) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 6 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中共緊急應戰出第一招，副作用明顯的防禦措施，遠非官方宣傳那麼英武；戲劇性一幕出現，朝中共人財兩空方向走；貿易戰加劇之際，萬斯給習主席幫了個大忙。 - already downloaded (line 146)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 彭博社，為何習近平這次一反常態、第一時間做出不留退路的激烈反應？高層緊急會議拿不出新對策，“刺激消費”成包醫百病的“板藍根”；川普再次單挑習近平。 (ID: HzHWOcvQOC8) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 彭博社，為何習近平這次一反常態、第一時間做出不留退路的激烈反應？高層緊急會議拿不出新對策，“刺激消費”成包醫百病的“板藍根”；川普再次單挑習近平。 - already downloaded (line 146)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 央視“高級黑”，挖苦“帶頭大哥”遭遇的尷尬；對劉鶴下手，反映習主席跟馬雲的恩怨沒完；經濟學人支招，川普有一軟勒。 (ID: 5trbm7MAFtk) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 8 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 央視“高級黑”，挖苦“帶頭大哥”遭遇的尷尬；對劉鶴下手，反映習主席跟馬雲的恩怨沒完；經濟學人支招，川普有一軟勒。 - already downloaded (line 146)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中共主動認領“恐襲”；中共內部認為習主席“掀桌子”是下策；魯比奧表達對俄態度到了臨界點。 (ID: bfoH-gZKC5I) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 9 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中共主動認領“恐襲”；中共內部認為習主席“掀桌子”是下策；魯比奧表達對俄態度到了臨界點。 - already downloaded (line 146)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習主席意外搶做“帶頭大哥”，震驚全球市場，是福是禍？川普自認“在下一盤大棋”，美聯儲拒絕配合做局。 (ID: eFCcdDUf4FQ) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 10 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 習主席意外搶做“帶頭大哥”，震驚全球市場，是福是禍？川普自認“在下一盤大棋”，美聯儲拒絕配合做局。 - already downloaded (line 146)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普按下“核按鈕”，引發市場海嘯，美國最受傷；川普封了中國出口產品“中轉站”；禍不單行，中國遭關稅之外另一重擊。 (ID: dLuBzScCaN8) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 11 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 川普按下“核按鈕”，引發市場海嘯，美國最受傷；川普封了中國出口產品“中轉站”；禍不單行，中國遭關稅之外另一重擊。 - already downloaded (line 146)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 史無前例，習近平突然改組政治局傳遞什麼信息？幾十億美元投入的中國“木馬”面臨被毀；川普刻意選擇盤後宣布，市場暴跌，“解放日”解放了誰？ (ID: YzxSpYn8Sz0) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 12 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 史無前例，習近平突然改組政治局傳遞什麼信息？幾十億美元投入的中國“木馬”面臨被毀；川普刻意選擇盤後宣布，市場暴跌，“解放日”解放了誰？ - already downloaded (line 146)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中共又誤判了；車禍後，小米第一時間製造骯髒的輿論風暴；馬斯克“宣布”火星歸誰。 (ID: I6kGQfar74k) (line 124)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 days ago (line 135)
+2025-04-14 20:06:49,906 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中共又誤判了；車禍後，小米第一時間製造骯髒的輿論風暴；馬斯克“宣布”火星歸誰。 - already downloaded (line 146)
+2025-04-14 20:06:49,907 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:06:49 (timestamp: 1744081609.907633) (line 353)
+2025-04-14 20:06:49,907 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 4 videos using 10 threads (line 368)
+2025-04-14 20:06:49,907 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: Aa29K-tZsc8
+2025-04-14 20:06:49,908 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 1mEm8bzTv7w
+2025-04-14 20:06:49,908 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 習近平碰軟釘子；為何這次習近平沒當成“帶頭大哥”？中國人教美國人學壞，兩招即能“機智”地繞過川普關稅。 video ID: Aa29K-tZsc8 (audio-only mode)
+2025-04-14 20:06:49,908 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: BFSNKRoX4lE
+2025-04-14 20:06:49,908 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: LULfijAXclk
+2025-04-14 20:06:49,909 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 習近平有比貿易戰更頭疼的事；美中貿易戰半路殺出程咬金；中共首次對會遭到「圍毆」做出回應。 video ID: 1mEm8bzTv7w (audio-only mode)
+2025-04-14 20:06:49,912 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 川普突然對中國做重大讓步？中共外交人員嘴滑，震驚美國；美國市場出現首批漲價中國產品，漲價幅度很奇怪。 video ID: BFSNKRoX4lE (audio-only mode)
+2025-04-14 20:06:49,912 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 習近平首次發聲，不敢擔當；中共秘密啟用股災維穩手段；友誼小船要翻？川普稱“不需要馬斯克也行”。 video ID: LULfijAXclk (audio-only mode)
+2025-04-14 20:07:05,554 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/習近平碰軟釘子_為何這次習近平沒當成_帶頭大哥__中國人教美國人學壞_兩招即能_機智_地繞過川普關稅_.mp3 (using yt-dlp)
+2025-04-14 20:07:05,555 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 習近平碰軟釘子；為何這次習近平沒當成“帶頭大哥”？中國人教美國人學壞，兩招即能“機智”地繞過川普關稅。
+2025-04-14 20:07:05,555 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 習近平碰軟釘子；為何這次習近平沒當成“帶頭大哥”？中國人教美國人學壞，兩招即能“機智”地繞過川普關稅。 (line 384)
+2025-04-14 20:07:06,994 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/川普突然對中國做重大讓步_中共外交人員嘴滑_震驚美國_美國市場出現首批漲價中國產品_漲價幅度很奇怪_.mp3 (using yt-dlp)
+2025-04-14 20:07:06,994 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 川普突然對中國做重大讓步？中共外交人員嘴滑，震驚美國；美國市場出現首批漲價中國產品，漲價幅度很奇怪。
+2025-04-14 20:07:06,994 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 川普突然對中國做重大讓步？中共外交人員嘴滑，震驚美國；美國市場出現首批漲價中國產品，漲價幅度很奇怪。 (line 384)
+2025-04-14 20:07:07,538 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/習近平有比貿易戰更頭疼的事_美中貿易戰半路殺出程咬金_中共首次對會遭到_圍毆_做出回應_.mp3 (using yt-dlp)
+2025-04-14 20:07:07,538 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 習近平有比貿易戰更頭疼的事；美中貿易戰半路殺出程咬金；中共首次對會遭到「圍毆」做出回應。
+2025-04-14 20:07:07,538 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 習近平有比貿易戰更頭疼的事；美中貿易戰半路殺出程咬金；中共首次對會遭到「圍毆」做出回應。 (line 384)
+2025-04-14 20:07:07,980 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/習近平首次發聲_不敢擔當_中共秘密啟用股災維穩手段_友誼小船要翻_川普稱_不需要馬斯克也行__.mp3 (using yt-dlp)
+2025-04-14 20:07:07,981 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 習近平首次發聲，不敢擔當；中共秘密啟用股災維穩手段；友誼小船要翻？川普稱“不需要馬斯克也行”。
+2025-04-14 20:07:07,981 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 習近平首次發聲，不敢擔當；中共秘密啟用股災維穩手段；友誼小船要翻？川普稱“不需要馬斯克也行”。 (line 384)
+2025-04-14 20:07:07,981 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 4 videos in total (line 391)
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:97] - Downloaded 4 videos from LT Shjie
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:203] - Downloaded 4 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/習近平碰軟釘子_為何這次習近平沒當成_帶頭大哥__中國人教美國人學壞_兩招即能_機智_地繞過川普關稅_.mp3
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/川普突然對中國做重大讓步_中共外交人員嘴滑_震驚美國_美國市場出現首批漲價中國產品_漲價幅度很奇怪_.mp3
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/習近平有比貿易戰更頭疼的事_美中貿易戰半路殺出程咬金_中共首次對會遭到_圍毆_做出回應_.mp3
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/習近平首次發聲_不敢擔當_中共秘密啟用股災維穩手段_友誼小船要翻_川普稱_不需要馬斯克也行__.mp3
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:166] - operate channel {'name': 'bu mingbai', 'url': 'https://www.youtube.com/@bumingbai', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:07:07,981 - src.app - INFO - [app.py:88] - Processing channel: bu mingbai
+2025-04-14 20:07:07,981 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@bumingbai
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-146  歪脑主编与VOA记者：未完成的报道 美国之音 | 自由亚洲电台 | RFA | 川普 | 特朗普 | 敌台 | 中共 | 新闻自由 | 维权 | 人权 | 香港自由新闻 | USAGM (ID: kcSUjaJjC4c) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: EP-146  歪脑主编与VOA记者：未完成的报道 美国之音 | 自由亚洲电台 | RFA | 川普 | 特朗普 | 敌台 | 中共 | 新闻自由 | 维权 | 人权 | 香港自由新闻 | USAGM (line 156)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-145 黄亚生：川普的关税大棒下世界将走向何方？ 贸易战 | 特朗普 | 中欧 | 全球化 | 中国 | 出口 | 专制体制 | 股市 | 马斯克 | 共和党 | 对等关税 | 大萧条 (ID: LUV5sYim7A0) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video EP-145 黄亚生：川普的关税大棒下世界将走向何方？ 贸易战 | 特朗普 | 中欧 | 全球化 | 中国 | 出口 | 专制体制 | 股市 | 马斯克 | 共和党 | 对等关税 | 大萧条 - already downloaded (line 146)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-144 那些偷听“敌台”的年轻人  美国之音 | 自由亚洲电台 | 翻墙 | 小粉红 | 川普 | 国安 | 反贼 | 马斯克 | 偷听敌台 | 中共 | 防火墙 | BBC | 西藏 | (ID: XZMLc9SEJ2c) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 days ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video EP-144 那些偷听“敌台”的年轻人  美国之音 | 自由亚洲电台 | 翻墙 | 小粉红 | 川普 | 国安 | 反贼 | 马斯克 | 偷听敌台 | 中共 | 防火墙 | BBC | 西藏 | - already downloaded (line 146)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-143 许成钢：美国之音对铁幕背后的人意味着什么？ 自由亚洲电台 | VOA | RFA | 川普新政 | 马斯克 | USAGM | 冷战 | 自由世界 | 偷听敌台 | 中共 | (ID: ZT_50EDLlfM) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-143 许成钢：美国之音对铁幕背后的人意味着什么？ 自由亚洲电台 | VOA | RFA | 川普新政 | 马斯克 | USAGM | 冷战 | 自由世界 | 偷听敌台 | 中共 | as it is too old
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-142 张洁平、Ian Johnson：川普新政下的欧洲、中国与公民社会 |  国际开发署 | USAID | NGO | 马斯克 | DOGE | 境外势力 | 中共 | 民主 | 人权 | (ID: kcZYchEEkLw) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 weeks ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-142 张洁平、Ian Johnson：川普新政下的欧洲、中国与公民社会 |  国际开发署 | USAID | NGO | 马斯克 | DOGE | 境外势力 | 中共 | 民主 | 人权 | as it is too old
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-141 裴敏欣：习近平反腐为何越反越腐？|  中纪委 | 胡锦涛 | 孙力军 | 黄兴国 | 中共 | 妄议中央 | 政治迷信 | 四种形态 | 两会 | (ID: OOaXR-biVdE) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-141 裴敏欣：习近平反腐为何越反越腐？|  中纪委 | 胡锦涛 | 孙力军 | 黄兴国 | 中共 | 妄议中央 | 政治迷信 | 四种形态 | 两会 | as it is too old
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-140 我们为什么需要新闻媒体？ |  人血馒头 | 珠海撞人 | 互联网审查 | 后真相时代 | 川普 | 美联社 | 假新闻 | 党媒姓党 | 新闻已死 | 油罐车 | (ID: vGmIyfpOaKs) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-140 我们为什么需要新闻媒体？ |  人血馒头 | 珠海撞人 | 互联网审查 | 后真相时代 | 川普 | 美联社 | 假新闻 | 党媒姓党 | 新闻已死 | 油罐车 | as it is too old
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-139 刘宗坤：如何应对川普制造的政治焦虑？ |  美国 | 俄乌战争 | 乌克兰 | 欧盟 | 民主 | 自由派 | 川粉 | 出生公民权| 政治抑郁 | 独裁 |  泽连斯基 (ID: W-127TnQXcg) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-139 刘宗坤：如何应对川普制造的政治焦虑？ |  美国 | 俄乌战争 | 乌克兰 | 欧盟 | 民主 | 自由派 | 川粉 | 出生公民权| 政治抑郁 | 独裁 |  泽连斯基 as it is too old
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-138 张伦：欧洲将如何应对特朗普？ | 俄乌战争 | 乌克兰 | 泽连斯基 | 普京 | 联合国大会 | 中国 | 北约 | 马克龙 | 慕尼黑安全会议 | 美国 (ID: 3_kzNJXVP_g) (line 124)
+2025-04-14 20:07:08,241 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-138 张伦：欧洲将如何应对特朗普？ | 俄乌战争 | 乌克兰 | 泽连斯基 | 普京 | 联合国大会 | 中国 | 北约 | 马克龙 | 慕尼黑安全会议 | 美国 as it is too old
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-137 许成钢：DeepSeek、民企座谈会能否重振中国经济？ | 习近平 | 民营企业 | 马云 | 任正非 | 人工智能 | AI | 梁文锋 | A股 | 通缩 | 供给侧  | 美国 (ID: LZa0dmyWteE) (line 124)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-137 许成钢：DeepSeek、民企座谈会能否重振中国经济？ | 习近平 | 民营企业 | 马云 | 任正非 | 人工智能 | AI | 梁文锋 | A股 | 通缩 | 供给侧  | 美国 as it is too old
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-136 陈良榕：你需要知道的张忠谋与台积电   | 芯片 | 台湾 | 中国 | AI | 英伟达 | 蔡英文 | 李国鼎 | 硅盾 | 护国神山 | 工研院 | 贸易战 | 美国 (ID: BN0zCRur48I) (line 124)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-136 陈良榕：你需要知道的张忠谋与台积电   | 芯片 | 台湾 | 中国 | AI | 英伟达 | 蔡英文 | 李国鼎 | 硅盾 | 护国神山 | 工研院 | 贸易战 | 美国 as it is too old
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-135 基层医生：比集采药更可怕的是什么？  | 医疗 | 中国 | 过度手术 | 国家绩效考核 | 四级手术 | 死亡率 | 经济下行 | 腐败 | 内卷 (ID: OzZ7Bh_L2GI) (line 124)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-135 基层医生：比集采药更可怕的是什么？  | 医疗 | 中国 | 过度手术 | 国家绩效考核 | 四级手术 | 死亡率 | 经济下行 | 腐败 | 内卷 as it is too old
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-134 王维嘉：DeepSeek对中美AI竞争意味着什么？  | Open AI | 大模型 | 人工智能 | chatGPT | 深度求索 | 英伟达 | 芯片 | 举国体制 |  贸易战 (ID: 1_HIKfpX7gA) (line 124)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-134 王维嘉：DeepSeek对中美AI竞争意味着什么？  | Open AI | 大模型 | 人工智能 | chatGPT | 深度求索 | 英伟达 | 芯片 | 举国体制 |  贸易战 as it is too old
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: EP-133 中国仿制药与集采制度出了什么问题？  | 医保 | 原研药 | 药监局 | 一致性评价 | 医疗 | 改革 | 垄断 | 国企 | 上海  | 两会  | 政协会员  | 阿司匹林 (ID: ZomSPEwYqbo) (line 124)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file EP-133 中国仿制药与集采制度出了什么问题？  | 医保 | 原研药 | 药监局 | 一致性评价 | 医疗 | 改革 | 垄断 | 国企 | 上海  | 两会  | 政协会员  | 阿司匹林 as it is too old
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:07:08 (timestamp: 1744081628.242664) (line 353)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 1 videos using 10 threads (line 368)
+2025-04-14 20:07:08,242 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: kcSUjaJjC4c
+2025-04-14 20:07:08,243 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: EP-146  歪脑主编与VOA记者：未完成的报道 美国之音 | 自由亚洲电台 | RFA | 川普 | 特朗普 | 敌台 | 中共 | 新闻自由 | 维权 | 人权 | 香港自由新闻 | USAGM video ID: kcSUjaJjC4c (audio-only mode)
+2025-04-14 20:07:24,733 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/EP-146  歪脑主编与VOA记者_未完成的报道 美国之音 _ 自由亚洲电台 _ RFA _ 川普 _ 特朗普 _ 敌台 _ 中共 _ 新闻自由 _ 维权 _ 人权 _ 香港自由新闻 _ USAGM.mp3 (using yt-dlp)
+2025-04-14 20:07:24,733 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: EP-146  歪脑主编与VOA记者：未完成的报道 美国之音 | 自由亚洲电台 | RFA | 川普 | 特朗普 | 敌台 | 中共 | 新闻自由 | 维权 | 人权 | 香港自由新闻 | USAGM
+2025-04-14 20:07:24,733 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: EP-146  歪脑主编与VOA记者：未完成的报道 美国之音 | 自由亚洲电台 | RFA | 川普 | 特朗普 | 敌台 | 中共 | 新闻自由 | 维权 | 人权 | 香港自由新闻 | USAGM (line 384)
+2025-04-14 20:07:24,733 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 1 videos in total (line 391)
+2025-04-14 20:07:24,733 - src.app - INFO - [app.py:97] - Downloaded 1 videos from bu mingbai
+2025-04-14 20:07:24,733 - src.app - INFO - [app.py:203] - Downloaded 1 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:07:24,733 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/EP-146  歪脑主编与VOA记者_未完成的报道 美国之音 _ 自由亚洲电台 _ RFA _ 川普 _ 特朗普 _ 敌台 _ 中共 _ 新闻自由 _ 维权 _ 人权 _ 香港自由新闻 _ USAGM.mp3
+2025-04-14 20:07:24,733 - src.app - INFO - [app.py:166] - operate channel {'name': '年代向錢看', 'url': 'https://www.youtube.com/@%E5%B9%B4%E4%BB%A3%E5%90%91%E9%8C%A2%E7%9C%8B', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:07:24,733 - src.app - INFO - [app.py:88] - Processing channel: 年代向錢看
+2025-04-14 20:07:24,733 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@%E5%B9%B4%E4%BB%A3%E5%90%91%E9%8C%A2%E7%9C%8B
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》董立文：#美國 已經撤銷500個以上#中國 留學生簽證...【年代向錢看】2025.04.14@ChenTalkShow (ID: rn-lh5Z7LLI) (line 124)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》董立文：#美國 已經撤銷500個以上#中國 留學生簽證...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》蔡明芳：#川普 最在意的是怎麼把工廠移回#美國 ...【年代向錢看】2025.04.14@ChenTalkShow (ID: juDVz9-n06U) (line 124)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》蔡明芳：#川普 最在意的是怎麼把工廠移回#美國 ...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》尚毅夫：如果聽#藍白 的話我們#關稅 可能125%...【年代向錢看】2025.04.14@ChenTalkShow (ID: daMaWOu3QQs) (line 124)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》尚毅夫：如果聽#藍白 的話我們#關稅 可能125%...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》小彥：#顏寬恒 是讓惡法成立的幫兇...【年代向錢看】2025.04.14@ChenTalkShow (ID: ebf79noftBM) (line 124)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,081 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》小彥：#顏寬恒 是讓惡法成立的幫兇...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》張捷：#川普 製造了很多不確定性的恐慌...【年代向錢看】2025.04.14@ChenTalkShow (ID: fFM3rk8I-b8) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》張捷：#川普 製造了很多不確定性的恐慌...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》高子旭：#美元 的波動會更大...【年代向錢看】2025.04.14@ChenTalkShow (ID: b3yF8FDEiPA) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》高子旭：#美元 的波動會更大...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》黃創夏：#赫格塞斯 稱拿回#巴拿馬 主權...【年代向錢看】2025.04.14@ChenTalkShow (ID: ICtpRzzyLMw) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》黃創夏：#赫格塞斯 稱拿回#巴拿馬 主權...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》翁偉捷：#中國 有意請#馬斯克 當調庭者...【年代向錢看】2025.04.14@ChenTalkShow (ID: 9Exl0Wa0kyg) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》翁偉捷：#中國 有意請#馬斯克 當調庭者...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》黃創夏：沒有人能夠從#關稅 裡面脫身...【年代向錢看】2025.04.14@ChenTalkShow (ID: B3MIhbXkD3o) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》黃創夏：沒有人能夠從#關稅 裡面脫身...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 精彩片段》吳明杰：若#美中 貿易戰開打#台灣 恐遭池魚之殃...【年代向錢看】2025.04.14@ChenTalkShow (ID: 6RR5BqUq7yQ) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 13 hours ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 精彩片段》吳明杰：若#美中 貿易戰開打#台灣 恐遭池魚之殃...【年代向錢看】2025.04.14@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 《#川普 在等#習近平 電話！#盧特尼特：#半導體、藥品將課關稅！#越南 嚴查！中國洗產地！》【年代向錢看】2025.04.14@ChenTalkShow #台積電 #人民日報 (ID: 4SfQmDhJjAA) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 14 hours ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 《#川普 在等#習近平 電話！#盧特尼特：#半導體、藥品將課關稅！#越南 嚴查！中國洗產地！》【年代向錢看】2025.04.14@ChenTalkShow #台積電 #人民日報 (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 《#川普 課關稅!#美國 去中國化! #賴清德 投書彭博!加大對美投資!#台商 選邊站!》【2025.04.13『年代向錢看』週末精選】 @ChenTalkShow   #習近平 #台積電 (ID: Ggan7OQJYe0) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 《#川普 課關稅!#美國 去中國化! #賴清德 投書彭博!加大對美投資!#台商 選邊站!》【2025.04.13『年代向錢看』週末精選】 @ChenTalkShow   #習近平 #台積電 (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 《#川普 追殺#中國 !也封殺中國#洗產地 !#關稅 海嘯!#半導體 去中化!全面脫勾選邊站!》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow (ID: 22ZokGGXjTc) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 《#川普 追殺#中國 !也封殺中國#洗產地 !#關稅 海嘯!#半導體 去中化!全面脫勾選邊站!》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow (line 156)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 《#川普 對#中國 課145%!#中國 回擊美國125%關稅!#習近平 挫裂等!? 》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow​ (ID: PgcJvAntGcc) (line 124)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:07:25,082 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 《#川普 對#中國 課145%!#中國 回擊美國125%關稅!#習近平 挫裂等!? 》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow​ (line 156)
+2025-04-14 20:07:25,083 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:07:25 (timestamp: 1744081645.083148) (line 353)
+2025-04-14 20:07:25,083 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 14 videos using 10 threads (line 368)
+2025-04-14 20:07:25,083 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: rn-lh5Z7LLI
+2025-04-14 20:07:25,083 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: juDVz9-n06U
+2025-04-14 20:07:25,083 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: daMaWOu3QQs
+2025-04-14 20:07:25,083 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》蔡明芳：#川普 最在意的是怎麼把工廠移回#美國 ...【年代向錢看】2025.04.14@ChenTalkShow video ID: juDVz9-n06U (audio-only mode)
+2025-04-14 20:07:25,083 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: ebf79noftBM
+2025-04-14 20:07:25,084 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》尚毅夫：如果聽#藍白 的話我們#關稅 可能125%...【年代向錢看】2025.04.14@ChenTalkShow video ID: daMaWOu3QQs (audio-only mode)
+2025-04-14 20:07:25,084 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》董立文：#美國 已經撤銷500個以上#中國 留學生簽證...【年代向錢看】2025.04.14@ChenTalkShow video ID: rn-lh5Z7LLI (audio-only mode)
+2025-04-14 20:07:25,084 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: fFM3rk8I-b8
+2025-04-14 20:07:25,084 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》小彥：#顏寬恒 是讓惡法成立的幫兇...【年代向錢看】2025.04.14@ChenTalkShow video ID: ebf79noftBM (audio-only mode)
+2025-04-14 20:07:25,084 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: b3yF8FDEiPA
+2025-04-14 20:07:25,084 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: ICtpRzzyLMw
+2025-04-14 20:07:25,086 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 9Exl0Wa0kyg
+2025-04-14 20:07:25,087 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: B3MIhbXkD3o
+2025-04-14 20:07:25,089 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 6RR5BqUq7yQ
+2025-04-14 20:07:25,092 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》張捷：#川普 製造了很多不確定性的恐慌...【年代向錢看】2025.04.14@ChenTalkShow video ID: fFM3rk8I-b8 (audio-only mode)
+2025-04-14 20:07:25,094 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》高子旭：#美元 的波動會更大...【年代向錢看】2025.04.14@ChenTalkShow video ID: b3yF8FDEiPA (audio-only mode)
+2025-04-14 20:07:25,095 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》黃創夏：#赫格塞斯 稱拿回#巴拿馬 主權...【年代向錢看】2025.04.14@ChenTalkShow video ID: ICtpRzzyLMw (audio-only mode)
+2025-04-14 20:07:25,095 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》翁偉捷：#中國 有意請#馬斯克 當調庭者...【年代向錢看】2025.04.14@ChenTalkShow video ID: 9Exl0Wa0kyg (audio-only mode)
+2025-04-14 20:07:25,095 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》黃創夏：沒有人能夠從#關稅 裡面脫身...【年代向錢看】2025.04.14@ChenTalkShow video ID: B3MIhbXkD3o (audio-only mode)
+2025-04-14 20:07:25,095 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 精彩片段》吳明杰：若#美中 貿易戰開打#台灣 恐遭池魚之殃...【年代向錢看】2025.04.14@ChenTalkShow video ID: 6RR5BqUq7yQ (audio-only mode)
+2025-04-14 20:07:29,262 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_翁偉捷__中國 有意請_馬斯克 當調庭者____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:29,263 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》翁偉捷：#中國 有意請#馬斯克 當調庭者...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:29,263 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 4SfQmDhJjAA
+2025-04-14 20:07:29,263 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》翁偉捷：#中國 有意請#馬斯克 當調庭者...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:29,263 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 《#川普 在等#習近平 電話！#盧特尼特：#半導體、藥品將課關稅！#越南 嚴查！中國洗產地！》【年代向錢看】2025.04.14@ChenTalkShow #台積電 #人民日報 video ID: 4SfQmDhJjAA (audio-only mode)
+2025-04-14 20:07:29,575 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_小彥__顏寬恒 是讓惡法成立的幫兇____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:29,575 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》小彥：#顏寬恒 是讓惡法成立的幫兇...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:29,575 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: Ggan7OQJYe0
+2025-04-14 20:07:29,575 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》小彥：#顏寬恒 是讓惡法成立的幫兇...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:29,575 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 《#川普 課關稅!#美國 去中國化! #賴清德 投書彭博!加大對美投資!#台商 選邊站!》【2025.04.13『年代向錢看』週末精選】 @ChenTalkShow   #習近平 #台積電 video ID: Ggan7OQJYe0 (audio-only mode)
+2025-04-14 20:07:29,890 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_高子旭__美元 的波動會更大____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:29,890 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》高子旭：#美元 的波動會更大...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:29,890 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 22ZokGGXjTc
+2025-04-14 20:07:29,890 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》高子旭：#美元 的波動會更大...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:29,890 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 《#川普 追殺#中國 !也封殺中國#洗產地 !#關稅 海嘯!#半導體 去中化!全面脫勾選邊站!》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow video ID: 22ZokGGXjTc (audio-only mode)
+2025-04-14 20:07:29,949 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_董立文__美國 已經撤銷500個以上_中國 留學生簽證____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:29,949 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》董立文：#美國 已經撤銷500個以上#中國 留學生簽證...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:29,949 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: PgcJvAntGcc
+2025-04-14 20:07:29,949 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》董立文：#美國 已經撤銷500個以上#中國 留學生簽證...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:29,950 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 《#川普 對#中國 課145%!#中國 回擊美國125%關稅!#習近平 挫裂等!? 》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow​ video ID: PgcJvAntGcc (audio-only mode)
+2025-04-14 20:07:30,141 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_黃創夏_沒有人能夠從_關稅 裡面脫身____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:30,141 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》黃創夏：沒有人能夠從#關稅 裡面脫身...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:30,141 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》黃創夏：沒有人能夠從#關稅 裡面脫身...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:30,327 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_黃創夏__赫格塞斯 稱拿回_巴拿馬 主權____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:30,327 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》黃創夏：#赫格塞斯 稱拿回#巴拿馬 主權...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:30,327 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》黃創夏：#赫格塞斯 稱拿回#巴拿馬 主權...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:30,998 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_張捷__川普 製造了很多不確定性的恐慌____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:30,998 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》張捷：#川普 製造了很多不確定性的恐慌...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:30,998 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》張捷：#川普 製造了很多不確定性的恐慌...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:31,567 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_吳明杰_若_美中 貿易戰開打_台灣 恐遭池魚之殃____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:31,567 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》吳明杰：若#美中 貿易戰開打#台灣 恐遭池魚之殃...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:31,567 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》吳明杰：若#美中 貿易戰開打#台灣 恐遭池魚之殃...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:31,963 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_蔡明芳__川普 最在意的是怎麼把工廠移回_美國 ____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:31,964 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》蔡明芳：#川普 最在意的是怎麼把工廠移回#美國 ...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:31,964 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》蔡明芳：#川普 最在意的是怎麼把工廠移回#美國 ...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:31,967 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/精彩片段_尚毅夫_如果聽_藍白 的話我們_關稅 可能125_____年代向錢看_2025_04_14_ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:31,967 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 精彩片段》尚毅夫：如果聽#藍白 的話我們#關稅 可能125%...【年代向錢看】2025.04.14@ChenTalkShow
+2025-04-14 20:07:31,967 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 精彩片段》尚毅夫：如果聽#藍白 的話我們#關稅 可能125%...【年代向錢看】2025.04.14@ChenTalkShow (line 384)
+2025-04-14 20:07:52,839 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/__川普 追殺_中國 _也封殺中國_洗產地 __關稅 海嘯__半導體 去中化_全面脫勾選邊站___2025_04_12_年代向錢看_週末精選__ChenTalkShow.mp3 (using yt-dlp)
+2025-04-14 20:07:52,839 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 《#川普 追殺#中國 !也封殺中國#洗產地 !#關稅 海嘯!#半導體 去中化!全面脫勾選邊站!》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow
+2025-04-14 20:07:52,839 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 《#川普 追殺#中國 !也封殺中國#洗產地 !#關稅 海嘯!#半導體 去中化!全面脫勾選邊站!》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow (line 384)
+2025-04-14 20:07:55,236 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/__川普 對_中國 課145___中國 回擊美國125_關稅__習近平 挫裂等__ __2025_04_12_年代向錢看_週末精選__ChenTalkShow_.mp3 (using yt-dlp)
+2025-04-14 20:07:55,236 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 《#川普 對#中國 課145%!#中國 回擊美國125%關稅!#習近平 挫裂等!? 》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow​
+2025-04-14 20:07:55,236 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 《#川普 對#中國 課145%!#中國 回擊美國125%關稅!#習近平 挫裂等!? 》【2025.04.12『年代向錢看』週末精選】@ChenTalkShow​ (line 384)
+2025-04-14 20:08:00,923 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/__川普 課關稅__美國 去中國化_ _賴清德 投書彭博_加大對美投資__台商 選邊站___2025_04_13_年代向錢看_週末精選_ _ChenTalkShow   _習近平 _台積電.mp3 (using yt-dlp)
+2025-04-14 20:08:00,924 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 《#川普 課關稅!#美國 去中國化! #賴清德 投書彭博!加大對美投資!#台商 選邊站!》【2025.04.13『年代向錢看』週末精選】 @ChenTalkShow   #習近平 #台積電
+2025-04-14 20:08:00,924 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 《#川普 課關稅!#美國 去中國化! #賴清德 投書彭博!加大對美投資!#台商 選邊站!》【2025.04.13『年代向錢看』週末精選】 @ChenTalkShow   #習近平 #台積電 (line 384)
+2025-04-14 20:08:02,595 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/__川普 在等_習近平 電話__盧特尼特__半導體_藥品將課關稅__越南 嚴查_中國洗產地___年代向錢看_2025_04_14_ChenTalkShow _台積電 _人民日報.mp3 (using yt-dlp)
+2025-04-14 20:08:02,595 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 《#川普 在等#習近平 電話！#盧特尼特：#半導體、藥品將課關稅！#越南 嚴查！中國洗產地！》【年代向錢看】2025.04.14@ChenTalkShow #台積電 #人民日報
+2025-04-14 20:08:02,595 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 《#川普 在等#習近平 電話！#盧特尼特：#半導體、藥品將課關稅！#越南 嚴查！中國洗產地！》【年代向錢看】2025.04.14@ChenTalkShow #台積電 #人民日報 (line 384)
+2025-04-14 20:08:02,596 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 14 videos in total (line 391)
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:97] - Downloaded 14 videos from 年代向錢看
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:203] - Downloaded 14 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_翁偉捷__中國 有意請_馬斯克 當調庭者____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_小彥__顏寬恒 是讓惡法成立的幫兇____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_高子旭__美元 的波動會更大____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_董立文__美國 已經撤銷500個以上_中國 留學生簽證____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_黃創夏_沒有人能夠從_關稅 裡面脫身____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_黃創夏__赫格塞斯 稱拿回_巴拿馬 主權____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_張捷__川普 製造了很多不確定性的恐慌____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_吳明杰_若_美中 貿易戰開打_台灣 恐遭池魚之殃____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_蔡明芳__川普 最在意的是怎麼把工廠移回_美國 ____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/精彩片段_尚毅夫_如果聽_藍白 的話我們_關稅 可能125_____年代向錢看_2025_04_14_ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/__川普 追殺_中國 _也封殺中國_洗產地 __關稅 海嘯__半導體 去中化_全面脫勾選邊站___2025_04_12_年代向錢看_週末精選__ChenTalkShow.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/__川普 對_中國 課145___中國 回擊美國125_關稅__習近平 挫裂等__ __2025_04_12_年代向錢看_週末精選__ChenTalkShow_.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/__川普 課關稅__美國 去中國化_ _賴清德 投書彭博_加大對美投資__台商 選邊站___2025_04_13_年代向錢看_週末精選_ _ChenTalkShow   _習近平 _台積電.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/__川普 在等_習近平 電話__盧特尼特__半導體_藥品將課關稅__越南 嚴查_中國洗產地___年代向錢看_2025_04_14_ChenTalkShow _台積電 _人民日報.mp3
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:166] - operate channel {'name': 'er ye gushi', 'url': 'https://www.youtube.com/@Tankman2020', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:08:02,596 - src.app - INFO - [app.py:88] - Processing channel: er ye gushi
+2025-04-14 20:08:02,596 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@Tankman2020
+2025-04-14 20:08:02,862 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普的回音壁：信息茧房是如何形成的 (ID: nGeObtAW0D8) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 23 hours ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 川普的回音壁：信息茧房是如何形成的 (line 156)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 谁是赢家：中美关税大战的背后 (ID: UkgAj_haJ-E) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 谁是赢家：中美关税大战的背后 (line 156)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 习近平的扫地僧：刘鹤的无奈 (ID: VIewKqjs9uI) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 习近平的扫地僧：刘鹤的无奈 - already downloaded (line 146)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 舍命相争：拯救人类的无名之辈 (ID: TlFpe5PeGGI) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 8 days ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 舍命相争：拯救人类的无名之辈 - already downloaded (line 146)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 李嘉诚：超人的撤退 (ID: iw9WbsDgaIY) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 weeks ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 李嘉诚：超人的撤退 as it is too old
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 戏如人生：白宫硬刚川普，泽连斯基是怎样一个人？ (ID: dW4GsthLKDA) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 戏如人生：白宫硬刚川普，泽连斯基是怎样一个人？ as it is too old
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 美乌协议谈崩：川普在白宫和泽连斯基爆发激烈争论 (ID: 7Fqhayns_ws) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 美乌协议谈崩：川普在白宫和泽连斯基爆发激烈争论 as it is too old
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 美国危机：川普背刺乌克兰后，世界将走向何方？ (ID: 4GWGJ3ruh70) (line 124)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 美国危机：川普背刺乌克兰后，世界将走向何方？ as it is too old
+2025-04-14 20:08:02,863 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 爱国的代价：中国人为什么挂洋旗？ (ID: UTjMW3dYB1Y) (line 124)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 爱国的代价：中国人为什么挂洋旗？ as it is too old
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 电诈之王和美女间谍：妙瓦底和中共一带一路背后的幕后故事（The King of Telecom Fraud and the Beautiful Spy） (ID: 3iIgu3IKt7s) (line 124)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 电诈之王和美女间谍：妙瓦底和中共一带一路背后的幕后故事（The King of Telecom Fraud and the Beautiful Spy） as it is too old
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中国人的民族性：所谓三百年殖民地才能改变中国吗？ (ID: mzzsiNzYqK8) (line 124)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 中国人的民族性：所谓三百年殖民地才能改变中国吗？ as it is too old
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 最后的团派：落寞的汪洋 (ID: J6keLyQzuhY) (line 124)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 最后的团派：落寞的汪洋 as it is too old
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 黑社会：现实中是怎样的存在？ (ID: jvPRXhrotjQ) (line 124)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 黑社会：现实中是怎样的存在？ as it is too old
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 范爷冰冰：顶流女明星命运的挣扎 (ID: atuVXSwppkI) (line 124)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:02,864 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 范爷冰冰：顶流女明星命运的挣扎 as it is too old
+2025-04-14 20:08:02,865 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:08:02 (timestamp: 1744081682.865478) (line 353)
+2025-04-14 20:08:02,865 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 2 videos using 10 threads (line 368)
+2025-04-14 20:08:02,865 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: nGeObtAW0D8
+2025-04-14 20:08:02,865 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: UkgAj_haJ-E
+2025-04-14 20:08:02,866 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 川普的回音壁：信息茧房是如何形成的 video ID: nGeObtAW0D8 (audio-only mode)
+2025-04-14 20:08:02,866 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 谁是赢家：中美关税大战的背后 video ID: UkgAj_haJ-E (audio-only mode)
+2025-04-14 20:08:11,642 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/川普的回音壁_信息茧房是如何形成的.mp3 (using yt-dlp)
+2025-04-14 20:08:11,643 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 川普的回音壁：信息茧房是如何形成的
+2025-04-14 20:08:11,643 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 川普的回音壁：信息茧房是如何形成的 (line 384)
+2025-04-14 20:08:14,309 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/谁是赢家_中美关税大战的背后.mp3 (using yt-dlp)
+2025-04-14 20:08:14,309 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 谁是赢家：中美关税大战的背后
+2025-04-14 20:08:14,309 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 谁是赢家：中美关税大战的背后 (line 384)
+2025-04-14 20:08:14,309 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 2 videos in total (line 391)
+2025-04-14 20:08:14,309 - src.app - INFO - [app.py:97] - Downloaded 2 videos from er ye gushi
+2025-04-14 20:08:14,309 - src.app - INFO - [app.py:203] - Downloaded 2 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:08:14,309 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/川普的回音壁_信息茧房是如何形成的.mp3
+2025-04-14 20:08:14,309 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/谁是赢家_中美关税大战的背后.mp3
+2025-04-14 20:08:14,309 - src.app - INFO - [app.py:166] - operate channel {'name': '大康有话说', 'url': 'https://www.youtube.com/@dakang', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:08:14,309 - src.app - INFO - [app.py:88] - Processing channel: 大康有话说
+2025-04-14 20:08:14,309 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@dakang
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中国进入‘战时状态’，全面进入斗争模式？ 中美大脱钩上演最坏结果：无序硬脱/直播精选 (ID: ue9EigJjc2Y) (line 124)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 6 hours ago (line 135)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 中国进入‘战时状态’，全面进入斗争模式？ 中美大脱钩上演最坏结果：无序硬脱/直播精选 (line 156)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普否认‘豁免’，对华贸易战已成输不起的政治战/直播精选 (ID: Qb-197SN6IY) (line 124)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 hours ago (line 135)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 川普否认‘豁免’，对华贸易战已成输不起的政治战/直播精选 (line 156)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 求通话，大豁免，川普真的对中国认怂了吗？习近平拒绝谈判误国误民/直播精选 (ID: UcuQelGyIek) (line 124)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 day ago (line 135)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 求通话，大豁免，川普真的对中国认怂了吗？习近平拒绝谈判误国误民/直播精选 (line 156)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 关税战第一阶段盘点/直播精选 (ID: FuL9dppDX4I) (line 124)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 day ago (line 135)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 关税战第一阶段盘点/直播精选 (line 156)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 美国版和平计划：分割乌克兰为东乌和西乌/直播精选 (ID: ujNXLU-5qoo) (line 124)
+2025-04-14 20:08:14,561 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 day ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 美国版和平计划：分割乌克兰为东乌和西乌/直播精选 (line 156)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 新西兰是养老的天堂？退休金制度能否撑起退休生活 (从北到南，探索新西兰：20250413第12期) (ID: WG_GSK54nG4) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 新西兰是养老的天堂？退休金制度能否撑起退休生活 (从北到南，探索新西兰：20250413第12期) (line 156)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普冲习近平猛晃橄榄枝；两边盲人骑瞎马的一场对撞/直播精选 (ID: U5zKBmHIMvA) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 川普冲习近平猛晃橄榄枝；两边盲人骑瞎马的一场对撞/直播精选 (line 156)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 美中大战：145%，尴尬一幕证明了这届美国班子是多么草台/直播精选 (ID: yKKy8jVuUVw) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 美中大战：145%，尴尬一幕证明了这届美国班子是多么草台/直播精选 (line 156)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 美中清零，不是几个点的GDP，是上千万人的失业/直播精选 (ID: s6o4FgIvv1c) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 美中清零，不是几个点的GDP，是上千万人的失业/直播精选 - already downloaded (line 146)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 习近平致命误判，美国要一举解决中国问题/直播精选 (ID: kPAUYDGOSVE) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 习近平致命误判，美国要一举解决中国问题/直播精选 - already downloaded (line 146)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 世界贸易战最终演变成美中大战！二阶段谈判美国开出五个霸道要价/直播精选 (ID: UagCgKcPX0A) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 世界贸易战最终演变成美中大战！二阶段谈判美国开出五个霸道要价/直播精选 - already downloaded (line 146)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 关税战第一战役有望两月内结束；面对川普，习近平到底有什么策略/直播精选 (ID: 9-KvSf7tz4w) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 关税战第一战役有望两月内结束；面对川普，习近平到底有什么策略/直播精选 - already downloaded (line 146)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 等三小时习近平没来电话，104%关税正式生效；清单出炉：出口主力和小商品几遭团灭/直播精选 (ID: Z345UjzVCA8) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 等三小时习近平没来电话，104%关税正式生效；清单出炉：出口主力和小商品几遭团灭/直播精选 - already downloaded (line 146)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中方回应：中国不屈服新关税威胁！中国民众准备好惊涛骇浪了吗/直播精选 (ID: f7j1tEvKDHo) (line 124)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 6 days ago (line 135)
+2025-04-14 20:08:14,562 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 中方回应：中国不屈服新关税威胁！中国民众准备好惊涛骇浪了吗/直播精选 - already downloaded (line 146)
+2025-04-14 20:08:14,563 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:08:14 (timestamp: 1744081694.563482) (line 353)
+2025-04-14 20:08:14,563 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 8 videos using 10 threads (line 368)
+2025-04-14 20:08:14,563 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: ue9EigJjc2Y
+2025-04-14 20:08:14,563 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: Qb-197SN6IY
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: UcuQelGyIek
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 中国进入‘战时状态’，全面进入斗争模式？ 中美大脱钩上演最坏结果：无序硬脱/直播精选 video ID: ue9EigJjc2Y (audio-only mode)
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: FuL9dppDX4I
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: ujNXLU-5qoo
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: WG_GSK54nG4
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 川普否认‘豁免’，对华贸易战已成输不起的政治战/直播精选 video ID: Qb-197SN6IY (audio-only mode)
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: U5zKBmHIMvA
+2025-04-14 20:08:14,564 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 求通话，大豁免，川普真的对中国认怂了吗？习近平拒绝谈判误国误民/直播精选 video ID: UcuQelGyIek (audio-only mode)
+2025-04-14 20:08:14,565 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 关税战第一阶段盘点/直播精选 video ID: FuL9dppDX4I (audio-only mode)
+2025-04-14 20:08:14,565 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: yKKy8jVuUVw
+2025-04-14 20:08:14,565 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 美国版和平计划：分割乌克兰为东乌和西乌/直播精选 video ID: ujNXLU-5qoo (audio-only mode)
+2025-04-14 20:08:14,569 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 新西兰是养老的天堂？退休金制度能否撑起退休生活 (从北到南，探索新西兰：20250413第12期) video ID: WG_GSK54nG4 (audio-only mode)
+2025-04-14 20:08:14,572 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 川普冲习近平猛晃橄榄枝；两边盲人骑瞎马的一场对撞/直播精选 video ID: U5zKBmHIMvA (audio-only mode)
+2025-04-14 20:08:14,578 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 美中大战：145%，尴尬一幕证明了这届美国班子是多么草台/直播精选 video ID: yKKy8jVuUVw (audio-only mode)
+2025-04-14 20:08:22,504 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/美中大战_145__尴尬一幕证明了这届美国班子是多么草台_直播精选.mp3 (using yt-dlp)
+2025-04-14 20:08:22,505 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 美中大战：145%，尴尬一幕证明了这届美国班子是多么草台/直播精选
+2025-04-14 20:08:22,505 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 美中大战：145%，尴尬一幕证明了这届美国班子是多么草台/直播精选 (line 384)
+2025-04-14 20:08:23,334 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/新西兰是养老的天堂_退休金制度能否撑起退休生活 _从北到南_探索新西兰_20250413第12期_.mp3 (using yt-dlp)
+2025-04-14 20:08:23,335 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 新西兰是养老的天堂？退休金制度能否撑起退休生活 (从北到南，探索新西兰：20250413第12期)
+2025-04-14 20:08:23,335 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 新西兰是养老的天堂？退休金制度能否撑起退休生活 (从北到南，探索新西兰：20250413第12期) (line 384)
+2025-04-14 20:08:23,836 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/美国版和平计划_分割乌克兰为东乌和西乌_直播精选.mp3 (using yt-dlp)
+2025-04-14 20:08:23,836 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 美国版和平计划：分割乌克兰为东乌和西乌/直播精选
+2025-04-14 20:08:23,836 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 美国版和平计划：分割乌克兰为东乌和西乌/直播精选 (line 384)
+2025-04-14 20:08:25,037 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/关税战第一阶段盘点_直播精选.mp3 (using yt-dlp)
+2025-04-14 20:08:25,038 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 关税战第一阶段盘点/直播精选
+2025-04-14 20:08:25,038 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 关税战第一阶段盘点/直播精选 (line 384)
+2025-04-14 20:08:25,045 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/中国进入_战时状态__全面进入斗争模式_ 中美大脱钩上演最坏结果_无序硬脱_直播精选.mp3 (using yt-dlp)
+2025-04-14 20:08:25,045 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 中国进入‘战时状态’，全面进入斗争模式？ 中美大脱钩上演最坏结果：无序硬脱/直播精选
+2025-04-14 20:08:25,045 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 中国进入‘战时状态’，全面进入斗争模式？ 中美大脱钩上演最坏结果：无序硬脱/直播精选 (line 384)
+2025-04-14 20:08:26,151 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/川普否认_豁免__对华贸易战已成输不起的政治战_直播精选.mp3 (using yt-dlp)
+2025-04-14 20:08:26,152 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 川普否认‘豁免’，对华贸易战已成输不起的政治战/直播精选
+2025-04-14 20:08:26,152 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 川普否认‘豁免’，对华贸易战已成输不起的政治战/直播精选 (line 384)
+2025-04-14 20:08:26,746 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/求通话_大豁免_川普真的对中国认怂了吗_习近平拒绝谈判误国误民_直播精选.mp3 (using yt-dlp)
+2025-04-14 20:08:26,746 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 求通话，大豁免，川普真的对中国认怂了吗？习近平拒绝谈判误国误民/直播精选
+2025-04-14 20:08:26,746 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 求通话，大豁免，川普真的对中国认怂了吗？习近平拒绝谈判误国误民/直播精选 (line 384)
+2025-04-14 20:08:27,078 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/川普冲习近平猛晃橄榄枝_两边盲人骑瞎马的一场对撞_直播精选.mp3 (using yt-dlp)
+2025-04-14 20:08:27,078 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 川普冲习近平猛晃橄榄枝；两边盲人骑瞎马的一场对撞/直播精选
+2025-04-14 20:08:27,078 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 川普冲习近平猛晃橄榄枝；两边盲人骑瞎马的一场对撞/直播精选 (line 384)
+2025-04-14 20:08:27,078 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 8 videos in total (line 391)
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:97] - Downloaded 8 videos from 大康有话说
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:203] - Downloaded 8 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/美中大战_145__尴尬一幕证明了这届美国班子是多么草台_直播精选.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/新西兰是养老的天堂_退休金制度能否撑起退休生活 _从北到南_探索新西兰_20250413第12期_.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/美国版和平计划_分割乌克兰为东乌和西乌_直播精选.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/关税战第一阶段盘点_直播精选.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/中国进入_战时状态__全面进入斗争模式_ 中美大脱钩上演最坏结果_无序硬脱_直播精选.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/川普否认_豁免__对华贸易战已成输不起的政治战_直播精选.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/求通话_大豁免_川普真的对中国认怂了吗_习近平拒绝谈判误国误民_直播精选.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/川普冲习近平猛晃橄榄枝_两边盲人骑瞎马的一场对撞_直播精选.mp3
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:166] - operate channel {'name': '小翠時政財經', 'url': 'https://www.youtube.com/@cui_news', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:08:27,078 - src.app - INFO - [app.py:88] - Processing channel: 小翠時政財經
+2025-04-14 20:08:27,078 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@cui_news
+2025-04-14 20:08:27,321 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習近平一出門，後院就起火，黨媒戰狼附體恐嚇全世界！中美貿易戰啥時能談判？一季度經濟數據表現如何？｜小翠時政財經 20250414#698 (ID: 4azsGqv2WN0) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 8 minutes ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 習近平一出門，後院就起火，黨媒戰狼附體恐嚇全世界！中美貿易戰啥時能談判？一季度經濟數據表現如何？｜小翠時政財經 20250414#698 (line 156)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中國繼續反制美國，125%關稅到此為止！A股開始限制股票出售，習近平強迫企業出錢替政府分憂！｜小翠時政財經 20250411#697 (ID: 6_T6N9WjBas) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 中國繼續反制美國，125%關稅到此為止！A股開始限制股票出售，習近平強迫企業出錢替政府分憂！｜小翠時政財經 20250411#697 (line 156)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習近平被川普坑了，125%關稅成全球最大輸家！人民幣匯率爆跌，中國威脅發動金融戰！中概股恐被趕出美股！｜小翠時政財經 20250409#696 (ID: wH8Fc0PKoNA) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 習近平被川普坑了，125%關稅成全球最大輸家！人民幣匯率爆跌，中國威脅發動金融戰！中概股恐被趕出美股！｜小翠時政財經 20250409#696 - already downloaded (line 146)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 這下真完了，中美死磕到底！川普再給中國加50%關稅！大外宣喊話習近平，趕緊打台灣報復美國！｜小翠時政財經 20250407#695 (ID: zCGajiDAMjo) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 6 days ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 這下真完了，中美死磕到底！川普再給中國加50%關稅！大外宣喊話習近平，趕緊打台灣報復美國！｜小翠時政財經 20250407#695 - already downloaded (line 146)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【會員直播片段】川普的華山一條路：賣金卡！金卡賣的不是身份，而是門票！｜小翠時政財經 20250406#694 (ID: GSwG7FW6GVk) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 【會員直播片段】川普的華山一條路：賣金卡！金卡賣的不是身份，而是門票！｜小翠時政財經 20250406#694 - already downloaded (line 146)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【直播片段】中美徹底決裂，中國對美加34%關稅報復川普，如此強硬中國要付出什麼代價？｜小翠時政財經 20250406#693 (ID: S9i0pYwI00o) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 【直播片段】中美徹底決裂，中國對美加34%關稅報復川普，如此強硬中國要付出什麼代價？｜小翠時政財經 20250406#693 - already downloaded (line 146)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 房地產割韭菜又有新招，保障房的坑有多少？中國各地出現“地王潮”，習近平撒幣撐房地產門面！｜小翠時政財經 20250405#693 (ID: lPlQeGpv9Xw) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 9 days ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 房地產割韭菜又有新招，保障房的坑有多少？中國各地出現“地王潮”，習近平撒幣撐房地產門面！｜小翠時政財經 20250405#693 - already downloaded (line 146)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普激進關稅打擊全世界！中國能否取代美國成為新的貿易領袖？中國為何死守人民幣匯率？｜小翠時政財經 20250404#692 (ID: rjLL-bgPvzg) (line 124)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 10 days ago (line 135)
+2025-04-14 20:08:27,322 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 川普激進關稅打擊全世界！中國能否取代美國成為新的貿易領袖？中國為何死守人民幣匯率？｜小翠時政財經 20250404#692 - already downloaded (line 146)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 小米出大事了！網紅企業家雷軍人設崩塌！小米在股市高位圈錢，吃相難看！｜小翠時政財經 20250402#691 (ID: gTLAjgUPA_Q) (line 124)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 12 days ago (line 135)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 小米出大事了！網紅企業家雷軍人設崩塌！小米在股市高位圈錢，吃相難看！｜小翠時政財經 20250402#691 - already downloaded (line 146)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 國有銀行出問題了！財政部注資5000億，為何要溢價10%認購银行股份？銀行股還值得投資嗎？｜小翠時政財經 20250331#690 (ID: b9D9z2EzDeo) (line 124)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 國有銀行出問題了！財政部注資5000億，為何要溢價10%認購银行股份？銀行股還值得投資嗎？｜小翠時政財經 20250331#690 as it is too old
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 招行2024年財報透露真相，中國人財富縮水到底有多嚴重！中國的銀行股這兩年為何大漲？｜小翠時政財經 20250328#688 (ID: Kyru_pa5YGw) (line 124)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 招行2024年財報透露真相，中國人財富縮水到底有多嚴重！中國的銀行股這兩年為何大漲？｜小翠時政財經 20250328#688 as it is too old
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 尼日爾驅逐中石油、敲詐習近平！一帶一路又受阻了！盤點習近平一帶一路項目被坑黑歷史！｜小翠時政財經 20250326#687 (ID: _P0xFrj2r3g) (line 124)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 尼日爾驅逐中石油、敲詐習近平！一帶一路又受阻了！盤點習近平一帶一路項目被坑黑歷史！｜小翠時政財經 20250326#687 as it is too old
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中國出口退稅金額大漲，財政大出血吃下關稅成本！央行一份被藏起來的報告透露了去年924新政的真相。｜小翠時政財經 20250324#686 (ID: NZxOlLWWIic) (line 124)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 中國出口退稅金額大漲，財政大出血吃下關稅成本！央行一份被藏起來的報告透露了去年924新政的真相。｜小翠時政財經 20250324#686 as it is too old
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 京東VS美團，劉強東再次出招打擊美團，但劉強東這次說謊了，揭露京東給騎手繳社保的真相！｜小翠時政財經 20250322#685 (ID: lW7HG6a2b3U) (line 124)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 weeks ago (line 135)
+2025-04-14 20:08:27,323 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 京東VS美團，劉強東再次出招打擊美團，但劉強東這次說謊了，揭露京東給騎手繳社保的真相！｜小翠時政財經 20250322#685 as it is too old
+2025-04-14 20:08:27,324 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:08:27 (timestamp: 1744081707.324612) (line 353)
+2025-04-14 20:08:27,324 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 2 videos using 10 threads (line 368)
+2025-04-14 20:08:27,325 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 4azsGqv2WN0
+2025-04-14 20:08:27,325 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 6_T6N9WjBas
+2025-04-14 20:08:27,325 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 習近平一出門，後院就起火，黨媒戰狼附體恐嚇全世界！中美貿易戰啥時能談判？一季度經濟數據表現如何？｜小翠時政財經 20250414#698 video ID: 4azsGqv2WN0 (audio-only mode)
+2025-04-14 20:08:27,325 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 中國繼續反制美國，125%關稅到此為止！A股開始限制股票出售，習近平強迫企業出錢替政府分憂！｜小翠時政財經 20250411#697 video ID: 6_T6N9WjBas (audio-only mode)
+2025-04-14 20:08:34,512 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/中國繼續反制美國_125_關稅到此為止_A股開始限制股票出售_習近平強迫企業出錢替政府分憂__小翠時政財經 20250411_697.mp3 (using yt-dlp)
+2025-04-14 20:08:34,513 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 中國繼續反制美國，125%關稅到此為止！A股開始限制股票出售，習近平強迫企業出錢替政府分憂！｜小翠時政財經 20250411#697
+2025-04-14 20:08:34,513 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 中國繼續反制美國，125%關稅到此為止！A股開始限制股票出售，習近平強迫企業出錢替政府分憂！｜小翠時政財經 20250411#697 (line 384)
+2025-04-14 20:08:34,714 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/習近平一出門_後院就起火_黨媒戰狼附體恐嚇全世界_中美貿易戰啥時能談判_一季度經濟數據表現如何__小翠時政財經 20250414_698.mp3 (using yt-dlp)
+2025-04-14 20:08:34,715 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 習近平一出門，後院就起火，黨媒戰狼附體恐嚇全世界！中美貿易戰啥時能談判？一季度經濟數據表現如何？｜小翠時政財經 20250414#698
+2025-04-14 20:08:34,715 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 習近平一出門，後院就起火，黨媒戰狼附體恐嚇全世界！中美貿易戰啥時能談判？一季度經濟數據表現如何？｜小翠時政財經 20250414#698 (line 384)
+2025-04-14 20:08:34,716 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 2 videos in total (line 391)
+2025-04-14 20:08:34,716 - src.app - INFO - [app.py:97] - Downloaded 2 videos from 小翠時政財經
+2025-04-14 20:08:34,716 - src.app - INFO - [app.py:203] - Downloaded 2 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:08:34,716 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/中國繼續反制美國_125_關稅到此為止_A股開始限制股票出售_習近平強迫企業出錢替政府分憂__小翠時政財經 20250411_697.mp3
+2025-04-14 20:08:34,716 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/習近平一出門_後院就起火_黨媒戰狼附體恐嚇全世界_中美貿易戰啥時能談判_一季度經濟數據表現如何__小翠時政財經 20250414_698.mp3
+2025-04-14 20:08:34,716 - src.app - INFO - [app.py:166] - operate channel {'name': 'Wen Zhao', 'url': 'https://www.youtube.com/@wenzhaoofficial', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:08:34,716 - src.app - INFO - [app.py:88] - Processing channel: Wen Zhao
+2025-04-14 20:08:34,716 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@wenzhaoofficial
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普突然語出驚人、發最強警告；北京進入戰時狀態，習親自出馬（文昭談古論今20250414第1544期） (ID: qBmOUNeIDso) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 hours ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 川普突然語出驚人、發最強警告；北京進入戰時狀態，習親自出馬（文昭談古論今20250414第1544期） (line 156)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 關稅的那些是是非非，你需要知道的真相【會員樣片節選】 (ID: 9MoV7chZ4-g) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 day ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 關稅的那些是是非非，你需要知道的真相【會員樣片節選】 (line 156)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習近平不跟了，退出關稅戰！中南海舉行神秘危機會議（文昭談古論今20250411第1543期） (ID: yPj6_Ob1D2M) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 習近平不跟了，退出關稅戰！中南海舉行神秘危機會議（文昭談古論今20250411第1543期） (line 156)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 習近平中計？川普延緩所有國家關稅，只對中共加到125%！為何彼此看走了眼？（文昭談古論今20250409第1542期） (ID: vSZT7HZ8nrg) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 習近平中計？川普延緩所有國家關稅，只對中共加到125%！為何彼此看走了眼？（文昭談古論今20250409第1542期） - already downloaded (line 146)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 川普對習近平發出最後通牒：不服就幹到115%！這麼加速下去、咋收場？（文昭談古論今20250407第1541期） (ID: jYPPF-xgTS4) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 7 days ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 川普對習近平發出最後通牒：不服就幹到115%！這麼加速下去、咋收場？（文昭談古論今20250407第1541期） - already downloaded (line 146)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 馬斯克真面目顯露，要是處心積慮的，那就...【會員樣片節選】 (ID: jf69recZ2Tw) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 8 days ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 馬斯克真面目顯露，要是處心積慮的，那就...【會員樣片節選】 - already downloaded (line 146)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 滅頂之災！川普關稅大噴發，中國國運終於迎來拐點；你準備好了嗎？（文昭談古論今20250403第1540期） (ID: FyMHs7ydom4) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 11 days ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 滅頂之災！川普關稅大噴發，中國國運終於迎來拐點；你準備好了嗎？（文昭談古論今20250403第1540期） - already downloaded (line 146)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 剛剛，中共政壇發生了一件史無前例的事；所剩時間真的不多了（文昭談古論今20250402第1539期） (ID: 4fuROtQxfpU) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 12 days ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 剛剛，中共政壇發生了一件史無前例的事；所剩時間真的不多了（文昭談古論今20250402第1539期） - already downloaded (line 146)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 港口賣不成了？習近平震怒、李超人改「土遁」，後果很嚴重！（文昭談古論今20250331第1538期） (ID: EGaBW3SYDyA) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 港口賣不成了？習近平震怒、李超人改「土遁」，後果很嚴重！（文昭談古論今20250331第1538期） as it is too old
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 武統陸配亞亞離台返中，說好的言論自由去哪兒了？【會員樣片節選】 (ID: iHb3NmURf1c) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 武統陸配亞亞離台返中，說好的言論自由去哪兒了？【會員樣片節選】 as it is too old
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 驚天動地的大事襲來，人民幣快速跌破8.5？這一切原來曾經上演過（文昭談古論今20250328第1537期） (ID: M58Fe_eXk8Y) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 驚天動地的大事襲來，人民幣快速跌破8.5？這一切原來曾經上演過（文昭談古論今20250328第1537期） as it is too old
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 不敢相信，連上海都蕭條成這樣！還有被隱藏的更可怕真相（文昭談古論今20250326第1536期） (ID: nD6lTB92oAg) (line 124)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 不敢相信，連上海都蕭條成這樣！還有被隱藏的更可怕真相（文昭談古論今20250326第1536期） as it is too old
+2025-04-14 20:08:35,013 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 麻煩大了，連他也出事了？習近平體制急速塌房中（文昭談古論今20250324第1535期） (ID: Nf6wD2IAoEs) (line 124)
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 weeks ago (line 135)
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 麻煩大了，連他也出事了？習近平體制急速塌房中（文昭談古論今20250324第1535期） as it is too old
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中國人聞之色變的「天下大亂」，到底有多可怕？【會員樣片節選】 (ID: UCAl9goAFV0) (line 124)
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 weeks ago (line 135)
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 中國人聞之色變的「天下大亂」，到底有多可怕？【會員樣片節選】 as it is too old
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:08:35 (timestamp: 1744081715.014712) (line 353)
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 3 videos using 10 threads (line 368)
+2025-04-14 20:08:35,014 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: qBmOUNeIDso
+2025-04-14 20:08:35,015 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: 9MoV7chZ4-g
+2025-04-14 20:08:35,015 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: yPj6_Ob1D2M
+2025-04-14 20:08:35,015 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 川普突然語出驚人、發最強警告；北京進入戰時狀態，習親自出馬（文昭談古論今20250414第1544期） video ID: qBmOUNeIDso (audio-only mode)
+2025-04-14 20:08:35,015 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 關稅的那些是是非非，你需要知道的真相【會員樣片節選】 video ID: 9MoV7chZ4-g (audio-only mode)
+2025-04-14 20:08:35,015 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 習近平不跟了，退出關稅戰！中南海舉行神秘危機會議（文昭談古論今20250411第1543期） video ID: yPj6_Ob1D2M (audio-only mode)
+2025-04-14 20:08:39,826 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/關稅的那些是是非非_你需要知道的真相_會員樣片節選_.mp3 (using yt-dlp)
+2025-04-14 20:08:39,827 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 關稅的那些是是非非，你需要知道的真相【會員樣片節選】
+2025-04-14 20:08:39,827 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 關稅的那些是是非非，你需要知道的真相【會員樣片節選】 (line 384)
+2025-04-14 20:08:44,996 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/川普突然語出驚人_發最強警告_北京進入戰時狀態_習親自出馬_文昭談古論今20250414第1544期_.mp3 (using yt-dlp)
+2025-04-14 20:08:44,996 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 川普突然語出驚人、發最強警告；北京進入戰時狀態，習親自出馬（文昭談古論今20250414第1544期）
+2025-04-14 20:08:44,996 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 川普突然語出驚人、發最強警告；北京進入戰時狀態，習親自出馬（文昭談古論今20250414第1544期） (line 384)
+2025-04-14 20:08:45,407 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/習近平不跟了_退出關稅戰_中南海舉行神秘危機會議_文昭談古論今20250411第1543期_.mp3 (using yt-dlp)
+2025-04-14 20:08:45,408 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 習近平不跟了，退出關稅戰！中南海舉行神秘危機會議（文昭談古論今20250411第1543期）
+2025-04-14 20:08:45,408 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 習近平不跟了，退出關稅戰！中南海舉行神秘危機會議（文昭談古論今20250411第1543期） (line 384)
+2025-04-14 20:08:45,408 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 3 videos in total (line 391)
+2025-04-14 20:08:45,408 - src.app - INFO - [app.py:97] - Downloaded 3 videos from Wen Zhao
+2025-04-14 20:08:45,408 - src.app - INFO - [app.py:203] - Downloaded 3 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:08:45,408 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/關稅的那些是是非非_你需要知道的真相_會員樣片節選_.mp3
+2025-04-14 20:08:45,408 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/川普突然語出驚人_發最強警告_北京進入戰時狀態_習親自出馬_文昭談古論今20250414第1544期_.mp3
+2025-04-14 20:08:45,408 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/習近平不跟了_退出關稅戰_中南海舉行神秘危機會議_文昭談古論今20250411第1543期_.mp3
+2025-04-14 20:08:45,408 - src.app - INFO - [app.py:166] - operate channel {'name': 'shuzhaiyehua', 'url': 'https://www.youtube.com/@shuzhaiyehua', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:08:45,408 - src.app - INFO - [app.py:88] - Processing channel: shuzhaiyehua
+2025-04-14 20:08:45,408 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@shuzhaiyehua
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】460：形單影只，中共得不到響應；誘敵深入，川普智鬥習近平（2025-4-10） (ID: Di18B8OEaSM) (line 124)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 【書齋夜話】460：形單影只，中共得不到響應；誘敵深入，川普智鬥習近平（2025-4-10） - already downloaded (line 146)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】459：中共政壇是死水一潭，還是暗潮洶湧？美國實行對等關稅，是否可以恢復輝煌？（2025-3-29） (ID: YQ7VK0W5d70) (line 124)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 weeks ago (line 135)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】459：中共政壇是死水一潭，還是暗潮洶湧？美國實行對等關稅，是否可以恢復輝煌？（2025-3-29） as it is too old
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】458：常識治國，川普的堅持；對抗戰狼，台灣的行動（2025-3-13） (ID: E2u63bGVH0c) (line 124)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】458：常識治國，川普的堅持；對抗戰狼，台灣的行動（2025-3-13） as it is too old
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】457：白宮爭吵，川普的外交失敗；是繼續戰爭，是停戰？還是雅爾塔2.0？（2025-3-8） (ID: 6nD7hDvHldo) (line 124)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】457：白宮爭吵，川普的外交失敗；是繼續戰爭，是停戰？還是雅爾塔2.0？（2025-3-8） as it is too old
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】456：川普內政外交全速展開，震驚世界 | 中國房地產病入膏肓，繼續下行（2025-2-19） (ID: y0o10sKfkjA) (line 124)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 1 month ago (line 135)
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】456：川普內政外交全速展開，震驚世界 | 中國房地產病入膏肓，繼續下行（2025-2-19） as it is too old
+2025-04-14 20:08:45,660 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】455：“陰謀論”的指控已經破產，美國官方認定病毒來自實驗室；川普政府的全面關稅是如何制定的（2025-2-2） (ID: 4iX5YhezkBQ) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】455：“陰謀論”的指控已經破產，美國官方認定病毒來自實驗室；川普政府的全面關稅是如何制定的（2025-2-2） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】454：民意授權，川普總統強勢回歸，美國新希望，世界新秩序（2025-1-21） (ID: 6Iurrr7WfVk) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】454：民意授權，川普總統強勢回歸，美國新希望，世界新秩序（2025-1-21） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】453：电诈园有利于中共对缅甸泰国的控制；洛杉矶大火暴露了加州民主党官员的无耻（2025-1-13） (ID: i3AMwGBVkGs) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】453：电诈园有利于中共对缅甸泰国的控制；洛杉矶大火暴露了加州民主党官员的无耻（2025-1-13） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】452：回顧2024，展望2025（2025-1-1） (ID: SNzXJKwVaLo) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】452：回顧2024，展望2025（2025-1-1） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】451：習近平眾叛親離，北京政壇如同走馬燈（2024-12-24） (ID: mahStRhMiUM) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】451：習近平眾叛親離，北京政壇如同走馬燈（2024-12-24） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】450：敘利亞一周變天，獨裁者膽戰心驚；拜登大赦1500人；FBI是否涉足J6事件？（2024-12-13） (ID: OdYvOZ2xODI) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】450：敘利亞一周變天，獨裁者膽戰心驚；拜登大赦1500人；FBI是否涉足J6事件？（2024-12-13） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】449：军改失败，习近平丧钟已经敲响；特赦儿子，拜登送给川普一份大礼（2024-12-3） (ID: HkMFJHJJtFY) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】449：军改失败，习近平丧钟已经敲响；特赦儿子，拜登送给川普一份大礼（2024-12-3） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】448：川普回归，中国贸易“最惠国”岌岌可危；报复社会，中国绝望的一群人（2024-11-24） (ID: 0y53rCA9rMY) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】448：川普回归，中国贸易“最惠国”岌岌可危；报复社会，中国绝望的一群人（2024-11-24） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 【書齋夜話】447：中国如同高压锅，人们或绝望挣扎或抱团取暖；川普高效推进，左派信誉尽失（2024-11-14） (ID: WEZkgR6_dWU) (line 124)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 months ago (line 135)
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:138] - ignore the file 【書齋夜話】447：中国如同高压锅，人们或绝望挣扎或抱团取暖；川普高效推进，左派信誉尽失（2024-11-14） as it is too old
+2025-04-14 20:08:45,661 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:08:45 (timestamp: 1744081725.661973) (line 353)
+2025-04-14 20:08:45,662 - src.youtube_downloader - INFO - [youtube_downloader.py:365] - No videos to download from channel (line 365)
+2025-04-14 20:08:45,662 - src.app - INFO - [app.py:97] - Downloaded 0 videos from shuzhaiyehua
+2025-04-14 20:08:45,662 - src.app - INFO - [app.py:166] - operate channel {'name': 'wangzhian', 'url': 'https://www.youtube.com/@wangzhian', 'days_to_check': 7, 'max_videos': 14}
+2025-04-14 20:08:45,662 - src.app - INFO - [app.py:88] - Processing channel: wangzhian
+2025-04-14 20:08:45,662 - src.youtube_downloader - INFO - [youtube_downloader.py:108] - Fetching videos from channel: https://www.youtube.com/@wangzhian
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 阳光彩虹甲亢哥，是中共的大外宣么？ (ID: -O1o7Wxo8hI) (line 124)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 12 minutes ago (line 135)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 阳光彩虹甲亢哥，是中共的大外宣么？ (line 156)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中美贸易战升级之际，习近平出访抵达越南｜新闻特写20250414 (ID: dFetSVpcDnc) (line 124)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 12 hours ago (line 135)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 中美贸易战升级之际，习近平出访抵达越南｜新闻特写20250414 (line 156)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 特朗普豁免部分中国商品关税，他是怂了还是认怂了？｜贸易战｜特朗普｜习近平｜关税｜欧盟｜王局拍案20250414 (ID: VsHBL6hfnLY) (line 124)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 15 hours ago (line 135)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 特朗普豁免部分中国商品关税，他是怂了还是认怂了？｜贸易战｜特朗普｜习近平｜关税｜欧盟｜王局拍案20250414 (line 156)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: META（FACEBOOK）前高管国会作证，揭露其与中共合作，打压言论，分享数据，封禁账户，帮助中国AI发展【中文字幕】｜新闻特写20250413 (ID: -mrEJzkS9Bc) (line 124)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: META（FACEBOOK）前高管国会作证，揭露其与中共合作，打压言论，分享数据，封禁账户，帮助中国AI发展【中文字幕】｜新闻特写20250413 (line 156)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 台北市长蒋万安接受议会质询：赖清德比中共更想消灭中华民国｜新闻特写20250412 (ID: uYPjKZ7Pn-Y) (line 124)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 2 days ago (line 135)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 台北市长蒋万安接受议会质询：赖清德比中共更想消灭中华民国｜新闻特写20250412 (line 156)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面专访20250411 (ID: s-OvtBlTv3A) (line 124)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面专访20250411 (line 156)
+2025-04-14 20:08:45,931 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 关税大战开打，习近平会桑切斯呼吁百年未有大变局时代中欧共同抵制霸凌【中文字幕】｜新闻特写20250411 (ID: CuFwJ8cdx_o) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 关税大战开打，习近平会桑切斯呼吁百年未有大变局时代中欧共同抵制霸凌【中文字幕】｜新闻特写20250411 (line 156)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 特朗普内阁会议：要把中国赶出巴拿马，若不能达成协议 将恢复高额“对等关税”【中文字幕】｜新闻特写20250411 (ID: D1KhwnDJHww) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 3 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 特朗普内阁会议：要把中国赶出巴拿马，若不能达成协议 将恢复高额“对等关税”【中文字幕】｜新闻特写20250411 (line 156)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 中国商务部记者会，六大招反击特朗普加关税｜新闻特写20250411 (ID: rxvNo_lhcLA) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 中国商务部记者会，六大招反击特朗普加关税｜新闻特写20250411 (line 156)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面访谈预告20250411 (ID: WnqRFyYBZn0) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面访谈预告20250411 (line 156)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 特朗普回答记者问：习近平是世界上最聪明的人，我们最终会达成一个非常好的协议【中文字幕】｜新闻特写20250410 (ID: JO3fKUrbF3o) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 特朗普回答记者问：习近平是世界上最聪明的人，我们最终会达成一个非常好的协议【中文字幕】｜新闻特写20250410 - already downloaded (line 146)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: Xi Strikes Back as Trump Hikes Tariffs Again: Trade War Now a Game of Spite (ID: SVB5GTHQf1c) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 4 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:156] - Adding video to download list: Xi Strikes Back as Trump Hikes Tariffs Again: Trade War Now a Game of Spite (line 156)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: 104%中国关税如期而至，特朗普态度依然强硬，炫耀正被多国“拍马屁”【中文字幕】｜新闻特写20250409 (ID: CbfWe9QmNR8) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video 104%中国关税如期而至，特朗普态度依然强硬，炫耀正被多国“拍马屁”【中文字幕】｜新闻特写20250409 - already downloaded (line 146)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:124] - Found video: U.S. Reclaims Panama? Xi Jinping Furious, Li Ka-shing Caught in the Middle? (ID: K4dCvtTCFY0) (line 124)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:135] - Video published: 5 days ago (line 135)
+2025-04-14 20:08:45,932 - src.youtube_downloader - INFO - [youtube_downloader.py:146] - Skipping video U.S. Reclaims Panama? Xi Jinping Furious, Li Ka-shing Caught in the Middle? - already downloaded (line 146)
+2025-04-14 20:08:45,933 - src.youtube_downloader - INFO - [youtube_downloader.py:353] - Cutoff date: 2025-04-07 20:08:45 (timestamp: 1744081725.933275) (line 353)
+2025-04-14 20:08:45,933 - src.youtube_downloader - INFO - [youtube_downloader.py:368] - Downloading 11 videos using 10 threads (line 368)
+2025-04-14 20:08:45,933 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: -O1o7Wxo8hI
+2025-04-14 20:08:45,933 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 阳光彩虹甲亢哥，是中共的大外宣么？ video ID: -O1o7Wxo8hI (audio-only mode)
+2025-04-14 20:08:45,936 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: dFetSVpcDnc
+2025-04-14 20:08:45,937 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: VsHBL6hfnLY
+2025-04-14 20:08:45,937 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: -mrEJzkS9Bc
+2025-04-14 20:08:45,937 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: uYPjKZ7Pn-Y
+2025-04-14 20:08:45,937 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: s-OvtBlTv3A
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: CuFwJ8cdx_o
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 中美贸易战升级之际，习近平出访抵达越南｜新闻特写20250414 video ID: dFetSVpcDnc (audio-only mode)
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: META（FACEBOOK）前高管国会作证，揭露其与中共合作，打压言论，分享数据，封禁账户，帮助中国AI发展【中文字幕】｜新闻特写20250413 video ID: -mrEJzkS9Bc (audio-only mode)
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: D1KhwnDJHww
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 特朗普豁免部分中国商品关税，他是怂了还是认怂了？｜贸易战｜特朗普｜习近平｜关税｜欧盟｜王局拍案20250414 video ID: VsHBL6hfnLY (audio-only mode)
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: rxvNo_lhcLA
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 台北市长蒋万安接受议会质询：赖清德比中共更想消灭中华民国｜新闻特写20250412 video ID: uYPjKZ7Pn-Y (audio-only mode)
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: WnqRFyYBZn0
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 关税大战开打，习近平会桑切斯呼吁百年未有大变局时代中欧共同抵制霸凌【中文字幕】｜新闻特写20250411 video ID: CuFwJ8cdx_o (audio-only mode)
+2025-04-14 20:08:45,938 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面专访20250411 video ID: s-OvtBlTv3A (audio-only mode)
+2025-04-14 20:08:45,941 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 特朗普内阁会议：要把中国赶出巴拿马，若不能达成协议 将恢复高额“对等关税”【中文字幕】｜新闻特写20250411 video ID: D1KhwnDJHww (audio-only mode)
+2025-04-14 20:08:45,948 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 中国商务部记者会，六大招反击特朗普加关税｜新闻特写20250411 video ID: rxvNo_lhcLA (audio-only mode)
+2025-04-14 20:08:45,950 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面访谈预告20250411 video ID: WnqRFyYBZn0 (audio-only mode)
+2025-04-14 20:08:47,695 - src.youtube_downloader - WARNING - [youtube_downloader.py:222] - yt-dlp audio download failed: Command '['yt-dlp', '-f', 'bestaudio', '-x', '--audio-format', 'mp3', '--audio-quality', '0', '-o', 'downloads/20250414/阳光彩虹甲亢哥_是中共的大外宣么_.mp3', 'https://www.youtube.com/watch?v=-O1o7Wxo8hI']' returned non-zero exit status 1., falling back to video download (line 222)
+2025-04-14 20:08:47,695 - src.youtube_downloader - INFO - [youtube_downloader.py:228] - Downloading video ID: -O1o7Wxo8hI (video mode)
+2025-04-14 20:08:49,533 - src.youtube_downloader - WARNING - [youtube_downloader.py:246] - yt-dlp download failed: Command '['yt-dlp', '-f', 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best', '-o', 'downloads/20250414/阳光彩虹甲亢哥_是中共的大外宣么__-O1o7Wxo8hI.mp4', 'https://www.youtube.com/watch?v=-O1o7Wxo8hI']' returned non-zero exit status 1., trying alternative method (line 246)
+2025-04-14 20:08:49,867 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/专访侯芷明_下__为何海外民运_如同一盘散沙_局面访谈预告20250411.mp3 (using yt-dlp)
+2025-04-14 20:08:49,867 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面访谈预告20250411
+2025-04-14 20:08:49,867 - src.youtube_downloader - INFO - [youtube_downloader.py:296] - Extracted video ID: SVB5GTHQf1c
+2025-04-14 20:08:49,867 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面访谈预告20250411 (line 384)
+2025-04-14 20:08:49,867 - src.youtube_downloader - INFO - [youtube_downloader.py:195] - Downloading audio only for title: Xi Strikes Back as Trump Hikes Tariffs Again: Trade War Now a Game of Spite video ID: SVB5GTHQf1c (audio-only mode)
+2025-04-14 20:08:50,052 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/中美贸易战升级之际_习近平出访抵达越南_新闻特写20250414.mp3 (using yt-dlp)
+2025-04-14 20:08:50,053 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 中美贸易战升级之际，习近平出访抵达越南｜新闻特写20250414
+2025-04-14 20:08:50,053 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 中美贸易战升级之际，习近平出访抵达越南｜新闻特写20250414 (line 384)
+2025-04-14 20:08:50,178 - src.youtube_downloader - INFO - [youtube_downloader.py:261] - Video downloaded to: downloads/20250414/阳光彩虹甲亢哥_是中共的大外宣么__-O1o7Wxo8hI.mp4 using direct download (line 261)
+2025-04-14 20:08:50,178 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 阳光彩虹甲亢哥，是中共的大外宣么？
+2025-04-14 20:08:50,178 - src.youtube_downloader - INFO - [youtube_downloader.py:319] - Converting video to MP3: downloads/20250414/阳光彩虹甲亢哥_是中共的大外宣么__-O1o7Wxo8hI.mp4
+2025-04-14 20:08:50,272 - src.youtube_downloader - ERROR - [youtube_downloader.py:333] - Error converting video to MP3: MoviePy error: failed to read the first frame of video file downloads/20250414/阳光彩虹甲亢哥_是中共的大外宣么__-O1o7Wxo8hI.mp4. That might mean that the file is corrupted. That may also mean that you are using a deprecated version of FFMPEG. On Ubuntu/Debian for instance the version in the repos is deprecated. Please update to a recent version from the website.
+2025-04-14 20:08:50,273 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 阳光彩虹甲亢哥，是中共的大外宣么？ (line 384)
+2025-04-14 20:08:50,433 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/关税大战开打_习近平会桑切斯呼吁百年未有大变局时代中欧共同抵制霸凌_中文字幕__新闻特写20250411.mp3 (using yt-dlp)
+2025-04-14 20:08:50,434 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 关税大战开打，习近平会桑切斯呼吁百年未有大变局时代中欧共同抵制霸凌【中文字幕】｜新闻特写20250411
+2025-04-14 20:08:50,434 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 关税大战开打，习近平会桑切斯呼吁百年未有大变局时代中欧共同抵制霸凌【中文字幕】｜新闻特写20250411 (line 384)
+2025-04-14 20:08:51,797 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/特朗普内阁会议_要把中国赶出巴拿马_若不能达成协议 将恢复高额_对等关税__中文字幕__新闻特写20250411.mp3 (using yt-dlp)
+2025-04-14 20:08:51,797 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 特朗普内阁会议：要把中国赶出巴拿马，若不能达成协议 将恢复高额“对等关税”【中文字幕】｜新闻特写20250411
+2025-04-14 20:08:51,798 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 特朗普内阁会议：要把中国赶出巴拿马，若不能达成协议 将恢复高额“对等关税”【中文字幕】｜新闻特写20250411 (line 384)
+2025-04-14 20:08:52,298 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/台北市长蒋万安接受议会质询_赖清德比中共更想消灭中华民国_新闻特写20250412.mp3 (using yt-dlp)
+2025-04-14 20:08:52,298 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 台北市长蒋万安接受议会质询：赖清德比中共更想消灭中华民国｜新闻特写20250412
+2025-04-14 20:08:52,298 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 台北市长蒋万安接受议会质询：赖清德比中共更想消灭中华民国｜新闻特写20250412 (line 384)
+2025-04-14 20:08:52,919 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/中国商务部记者会_六大招反击特朗普加关税_新闻特写20250411.mp3 (using yt-dlp)
+2025-04-14 20:08:52,919 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 中国商务部记者会，六大招反击特朗普加关税｜新闻特写20250411
+2025-04-14 20:08:52,919 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 中国商务部记者会，六大招反击特朗普加关税｜新闻特写20250411 (line 384)
+2025-04-14 20:08:57,807 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/META_FACEBOOK_前高管国会作证_揭露其与中共合作_打压言论_分享数据_封禁账户_帮助中国AI发展_中文字幕__新闻特写20250413.mp3 (using yt-dlp)
+2025-04-14 20:08:57,808 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: META（FACEBOOK）前高管国会作证，揭露其与中共合作，打压言论，分享数据，封禁账户，帮助中国AI发展【中文字幕】｜新闻特写20250413
+2025-04-14 20:08:57,808 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: META（FACEBOOK）前高管国会作证，揭露其与中共合作，打压言论，分享数据，封禁账户，帮助中国AI发展【中文字幕】｜新闻特写20250413 (line 384)
+2025-04-14 20:08:57,978 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/特朗普豁免部分中国商品关税_他是怂了还是认怂了__贸易战_特朗普_习近平_关税_欧盟_王局拍案20250414.mp3 (using yt-dlp)
+2025-04-14 20:08:57,979 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 特朗普豁免部分中国商品关税，他是怂了还是认怂了？｜贸易战｜特朗普｜习近平｜关税｜欧盟｜王局拍案20250414
+2025-04-14 20:08:57,979 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 特朗普豁免部分中国商品关税，他是怂了还是认怂了？｜贸易战｜特朗普｜习近平｜关税｜欧盟｜王局拍案20250414 (line 384)
+2025-04-14 20:09:02,415 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/Xi Strikes Back as Trump Hikes Tariffs Again_ Trade War Now a Game of Spite.mp3 (using yt-dlp)
+2025-04-14 20:09:02,415 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: Xi Strikes Back as Trump Hikes Tariffs Again: Trade War Now a Game of Spite
+2025-04-14 20:09:02,415 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: Xi Strikes Back as Trump Hikes Tariffs Again: Trade War Now a Game of Spite (line 384)
+2025-04-14 20:09:11,051 - src.youtube_downloader - INFO - [youtube_downloader.py:210] - Audio downloaded directly to MP3: downloads/20250414/专访侯芷明_下__为何海外民运_如同一盘散沙_局面专访20250411.mp3 (using yt-dlp)
+2025-04-14 20:09:11,052 - src.youtube_downloader - INFO - [youtube_downloader.py:91] - Saved title to downloaded titles file: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面专访20250411
+2025-04-14 20:09:11,052 - src.youtube_downloader - INFO - [youtube_downloader.py:384] - Successfully downloaded video: 专访侯芷明（下）：为何海外民运，如同一盘散沙｜局面专访20250411 (line 384)
+2025-04-14 20:09:11,052 - src.youtube_downloader - INFO - [youtube_downloader.py:391] - Downloaded 11 videos in total (line 391)
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:97] - Downloaded 11 videos from wangzhian
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:203] - Downloaded 11 videos/MP3s (WeChat messaging disabled)
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/专访侯芷明_下__为何海外民运_如同一盘散沙_局面访谈预告20250411.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/中美贸易战升级之际_习近平出访抵达越南_新闻特写20250414.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:209] - Downloaded video: downloads/20250414/阳光彩虹甲亢哥_是中共的大外宣么__-O1o7Wxo8hI.mp4
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/关税大战开打_习近平会桑切斯呼吁百年未有大变局时代中欧共同抵制霸凌_中文字幕__新闻特写20250411.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/特朗普内阁会议_要把中国赶出巴拿马_若不能达成协议 将恢复高额_对等关税__中文字幕__新闻特写20250411.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/台北市长蒋万安接受议会质询_赖清德比中共更想消灭中华民国_新闻特写20250412.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/中国商务部记者会_六大招反击特朗普加关税_新闻特写20250411.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/META_FACEBOOK_前高管国会作证_揭露其与中共合作_打压言论_分享数据_封禁账户_帮助中国AI发展_中文字幕__新闻特写20250413.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/特朗普豁免部分中国商品关税_他是怂了还是认怂了__贸易战_特朗普_习近平_关税_欧盟_王局拍案20250414.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/Xi Strikes Back as Trump Hikes Tariffs Again_ Trade War Now a Game of Spite.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:207] - Downloaded MP3: downloads/20250414/专访侯芷明_下__为何海外民运_如同一盘散沙_局面专访20250411.mp3
+2025-04-14 20:09:11,052 - src.app - INFO - [app.py:218] - Application run completed. Downloaded 53 files.
